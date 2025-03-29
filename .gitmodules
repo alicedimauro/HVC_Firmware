@@ -1,0 +1,3 @@
+[submodule "RainbowLED/Libs/longhorn-lib-2025/longhorn-lib-2025"]
+	path = RainbowLED/Libs/longhorn-lib-2025/longhorn-lib-2025
+	url = https://github.com/LonghornRacingElectric/longhorn-lib-2025.git

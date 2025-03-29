@@ -1,0 +1,6 @@
+CMakeFiles/
+*.ninja
+*.cmake
+**Cache**
+/.idea
+/cmake-build-debug

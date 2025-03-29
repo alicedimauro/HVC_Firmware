@@ -20,9 +20,6 @@
 #include "main.h"
 #include "memorymap.h"
 #include "gpio.h"
-#include "led.h"
-#include "timer.h"
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -103,18 +100,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    /* USER CODE BEGIN 3 *
-    // HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-    // HAL_Delay(1000); // 1 second delay
-    //
-    // HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
-    // HAL_Delay(1000);
-    //
-    // HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_2);
-    // HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
-    uint32_t curtime = lib_timer_ms_elapsed();
-    led_rainbow(curtime / 1000.0f);
   }
   /* USER CODE END 3 */
 }

@@ -128,6 +128,30 @@ FlashRainbow.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/build
 .PHONY : FlashRainbow.elf/fast
 
+Core/Src/adbms.obj: Core/Src/adbms.c.obj
+.PHONY : Core/Src/adbms.obj
+
+# target to build an object file
+Core/Src/adbms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
+.PHONY : Core/Src/adbms.c.obj
+
+Core/Src/adbms.i: Core/Src/adbms.c.i
+.PHONY : Core/Src/adbms.i
+
+# target to preprocess a source file
+Core/Src/adbms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.i
+.PHONY : Core/Src/adbms.c.i
+
+Core/Src/adbms.s: Core/Src/adbms.c.s
+.PHONY : Core/Src/adbms.s
+
+# target to generate assembly for a file
+Core/Src/adbms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.s
+.PHONY : Core/Src/adbms.c.s
+
 Core/Src/cells.obj: Core/Src/cells.c.obj
 .PHONY : Core/Src/cells.obj
 
@@ -151,6 +175,30 @@ Core/Src/cells.s: Core/Src/cells.c.s
 Core/Src/cells.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.s
 .PHONY : Core/Src/cells.c.s
+
+Core/Src/faults.obj: Core/Src/faults.c.obj
+.PHONY : Core/Src/faults.obj
+
+# target to build an object file
+Core/Src/faults.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/faults.c.obj
+.PHONY : Core/Src/faults.c.obj
+
+Core/Src/faults.i: Core/Src/faults.c.i
+.PHONY : Core/Src/faults.i
+
+# target to preprocess a source file
+Core/Src/faults.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/faults.c.i
+.PHONY : Core/Src/faults.c.i
+
+Core/Src/faults.s: Core/Src/faults.c.s
+.PHONY : Core/Src/faults.s
+
+# target to generate assembly for a file
+Core/Src/faults.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/faults.c.s
+.PHONY : Core/Src/faults.c.s
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -223,6 +271,30 @@ Core/Src/memorymap.s: Core/Src/memorymap.c.s
 Core/Src/memorymap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.s
 .PHONY : Core/Src/memorymap.c.s
+
+Core/Src/night_can.obj: Core/Src/night_can.c.obj
+.PHONY : Core/Src/night_can.obj
+
+# target to build an object file
+Core/Src/night_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/night_can.c.obj
+.PHONY : Core/Src/night_can.c.obj
+
+Core/Src/night_can.i: Core/Src/night_can.c.i
+.PHONY : Core/Src/night_can.i
+
+# target to preprocess a source file
+Core/Src/night_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/night_can.c.i
+.PHONY : Core/Src/night_can.c.i
+
+Core/Src/night_can.s: Core/Src/night_can.c.s
+.PHONY : Core/Src/night_can.s
+
+# target to generate assembly for a file
+Core/Src/night_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/night_can.c.s
+.PHONY : Core/Src/night_can.c.s
 
 Core/Src/spi.obj: Core/Src/spi.c.obj
 .PHONY : Core/Src/spi.obj
@@ -817,9 +889,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FlashRainbow.elf
+	@echo ... Core/Src/adbms.obj
+	@echo ... Core/Src/adbms.i
+	@echo ... Core/Src/adbms.s
 	@echo ... Core/Src/cells.obj
 	@echo ... Core/Src/cells.i
 	@echo ... Core/Src/cells.s
+	@echo ... Core/Src/faults.obj
+	@echo ... Core/Src/faults.i
+	@echo ... Core/Src/faults.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -829,6 +907,9 @@ help:
 	@echo ... Core/Src/memorymap.obj
 	@echo ... Core/Src/memorymap.i
 	@echo ... Core/Src/memorymap.s
+	@echo ... Core/Src/night_can.obj
+	@echo ... Core/Src/night_can.i
+	@echo ... Core/Src/night_can.s
 	@echo ... Core/Src/spi.obj
 	@echo ... Core/Src/spi.i
 	@echo ... Core/Src/spi.s

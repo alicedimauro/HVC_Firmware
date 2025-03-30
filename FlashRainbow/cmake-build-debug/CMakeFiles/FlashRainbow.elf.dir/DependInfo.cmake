@@ -31,13 +31,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Git/LHR/FlashRainbow/Core/Src/adbms.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj.d"
-  "C:/Git/LHR/FlashRainbow/Core/Src/cells.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.obj.d"
-  "C:/Git/LHR/FlashRainbow/Core/Src/faults.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/faults.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/faults.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/gpio.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/main.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/memorymap.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj.d"
-  "C:/Git/LHR/FlashRainbow/Core/Src/night_can.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/night_can.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/night_can.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/spi.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/stm32h7xx_hal_msp.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/stm32h7xx_it.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj.d"

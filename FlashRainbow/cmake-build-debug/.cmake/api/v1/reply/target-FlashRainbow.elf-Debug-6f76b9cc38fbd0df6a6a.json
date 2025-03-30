@@ -28,25 +28,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 71,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 69,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -185,19 +185,22 @@
 			},
 			"sourceIndexes" : 
 			[
+				7,
+				8,
+				9,
 				10,
 				11,
 				12,
 				13,
 				14,
 				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
 				88,
 				89,
 				90,
@@ -208,14 +211,7 @@
 				95,
 				96,
 				97,
-				98,
-				99,
-				100,
-				101,
-				102,
-				103,
-				104,
-				105
+				98
 			]
 		},
 		{
@@ -314,7 +310,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				23
+				16
 			]
 		}
 	],
@@ -360,41 +356,6 @@
 				"backtrace" : 4,
 				"fragment" : "C:/Git/LHR/FlashRainbow/STM32H723VGTX_FLASH.ld",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/cells.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/adbms.c",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/adbms.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/night_can.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/night_can.c",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/faults.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/faults.c",
-				"role" : "flags"
 			}
 		],
 		"language" : "C"
@@ -419,12 +380,16 @@
 				4,
 				5,
 				6,
-				7,
-				8,
-				9,
+				17,
+				18,
+				19,
+				21,
+				22,
+				23,
 				24,
 				25,
 				26,
+				27,
 				28,
 				29,
 				30,
@@ -442,13 +407,13 @@
 				42,
 				43,
 				44,
-				45,
 				46,
 				47,
 				48,
 				49,
 				50,
 				51,
+				52,
 				53,
 				54,
 				55,
@@ -475,33 +440,29 @@
 				76,
 				77,
 				78,
-				79,
-				80,
-				81,
-				82,
-				83,
-				84,
-				85,
-				86
+				79
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
+				7,
+				8,
+				9,
 				10,
 				11,
 				12,
 				13,
 				14,
 				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
 				88,
 				89,
 				90,
@@ -512,40 +473,23 @@
 				95,
 				96,
 				97,
-				98,
-				99,
-				100,
-				101,
-				102,
-				103,
-				104,
-				105
+				98
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				23,
-				27,
-				52,
-				87,
-				106
+				16,
+				20,
+				45,
+				80,
+				99
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"path" : "Core/Inc/adbms.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Core/Inc/cells.h",
-			"sourceGroupIndex" : 0
-		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/faults.h",
@@ -568,11 +512,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Core/Inc/night_can.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"path" : "Core/Inc/spi.h",
 			"sourceGroupIndex" : 0
 		},
@@ -585,24 +524,6 @@
 			"backtrace" : 1,
 			"path" : "Core/Inc/stm32h7xx_it.h",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/adbms.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/cells.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/faults.c",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -620,12 +541,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/memorymap.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/night_can.c",
 			"sourceGroupIndex" : 1
 		},
 		{

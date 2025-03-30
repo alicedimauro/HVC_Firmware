@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Git\LHR\FlashRainbow
+CMAKE_SOURCE_DIR = C:\Users\sebza\Downloads\hvctest\LHR\FlashRainbow
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Git\LHR\FlashRainbow\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sebza\Downloads\hvctest\LHR\FlashRainbow\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Git\LHR\FlashRainbow\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\LHR\FlashRainbow\cmake-build-debug\CMakeFiles C:\Git\LHR\FlashRainbow\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebza\Downloads\hvctest\LHR\FlashRainbow\cmake-build-debug\CMakeFiles C:\Users\sebza\Downloads\hvctest\LHR\FlashRainbow\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\LHR\FlashRainbow\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebza\Downloads\hvctest\LHR\FlashRainbow\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -640,6 +640,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
+
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj
 
@@ -784,6 +832,222 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.obj
+
+# target to build an object file
+USB_DEVICE/App/usb_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.c.obj
+
+USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usb_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.c.i
+
+USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usb_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.c.s
+
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+
+USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_desc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.c.obj
+
+USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_desc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.c.i
+
+USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_desc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.c.s
+
+USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.obj
+
+# target to build an object file
+USB_DEVICE/Target/usbd_conf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
+
+USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.i
+
+# target to preprocess a source file
+USB_DEVICE/Target/usbd_conf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.c.i
+
+USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.s
+
+# target to generate assembly for a file
+USB_DEVICE/Target/usbd_conf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -857,6 +1121,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.s
@@ -875,6 +1145,33 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+	@echo ... USB_DEVICE/App/usb_device.obj
+	@echo ... USB_DEVICE/App/usb_device.i
+	@echo ... USB_DEVICE/App/usb_device.s
+	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
+	@echo ... USB_DEVICE/App/usbd_cdc_if.i
+	@echo ... USB_DEVICE/App/usbd_cdc_if.s
+	@echo ... USB_DEVICE/App/usbd_desc.obj
+	@echo ... USB_DEVICE/App/usbd_desc.i
+	@echo ... USB_DEVICE/App/usbd_desc.s
+	@echo ... USB_DEVICE/Target/usbd_conf.obj
+	@echo ... USB_DEVICE/Target/usbd_conf.i
+	@echo ... USB_DEVICE/Target/usbd_conf.s
 .PHONY : help
 
 

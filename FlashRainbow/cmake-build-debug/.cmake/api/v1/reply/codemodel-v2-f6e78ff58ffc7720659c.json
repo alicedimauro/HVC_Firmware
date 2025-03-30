@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FlashRainbow.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FlashRainbow.elf-Debug-6f76b9cc38fbd0df6a6a.json",
+					"jsonFile" : "target-FlashRainbow.elf-Debug-475d9d16955a7e85250a.json",
 					"name" : "FlashRainbow.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Git/LHR/FlashRainbow/cmake-build-debug",
-		"source" : "C:/Git/LHR/FlashRainbow"
+		"build" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug",
+		"source" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow"
 	},
 	"version" : 
 	{

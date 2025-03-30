@@ -20,7 +20,10 @@
 #include "main.h"
 #include "memorymap.h"
 #include "spi.h"
+#include "usb_device.h"
 #include "gpio.h"
+#include "usbd_cdc_if.h"
+#include "stdio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -57,6 +60,63 @@ static void MPU_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+// Polynomial: x^15 + x^14 + x^10 + x^8 + x^7 + x^4 + x^3 + 1 = 0x4599
+uint16_t pec15_calc(uint8_t *data, uint8_t len)
+{
+  const uint16_t POLY = 0x4599;
+  uint16_t remainder = 16; // Seed
+
+  for (uint8_t i = 0; i < len; i++) {
+    remainder ^= ((uint16_t)data[i] << 7);
+    for (uint8_t bit = 0; bit < 8; bit++) {
+      if (remainder & 0x4000)
+        remainder = (remainder << 1) ^ POLY;
+      else
+        remainder <<= 1;
+    }
+  }
+
+  return (remainder & 0x7FFF) << 1; // Left-align to 16 bits
+}
+
+void test_spi_rdcfga(void)
+{
+  uint8_t cmd[2] = {0x00, 0x02};  // RDCFGA
+  uint16_t pec = pec15_calc(cmd, 2);
+
+  uint8_t tx[4] = {
+    cmd[0],
+    cmd[1],
+    (uint8_t)(pec >> 8),
+    (uint8_t)(pec & 0xFF)
+};
+
+  uint8_t rx[8];  // 6 bytes data + 2 PEC
+
+  // Activate CS (adjust GPIO pin as needed)
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET); // CS low
+  HAL_SPI_Transmit(&hspi3, tx, 4, HAL_MAX_DELAY);
+  HAL_SPI_Receive(&hspi3, rx, 8, HAL_MAX_DELAY);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);   // CS high
+
+  // Check PEC on response
+  uint16_t rx_pec = (rx[6] << 8) | rx[7];
+  uint16_t calc_pec = pec15_calc(rx, 6);
+
+  char msg[128];
+  if (rx_pec == calc_pec)
+  {
+    sprintf(msg, "RDCFGA: %02X %02X %02X %02X %02X %02X\r\n",
+        rx[0], rx[1], rx[2], rx[3], rx[4], rx[5]);
+  }
+  else
+  {
+    sprintf(msg, "PEC ERROR: got %04X, expected %04X\r\n", rx_pec, calc_pec);
+  }
+
+CDC_Transmit_HS((uint8_t*)msg, strlen(msg));
+}
+
 
 /* USER CODE END 0 */
 
@@ -68,6 +128,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+
 
   /* USER CODE END 1 */
 
@@ -93,7 +154,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_SPI3_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+  uint8_t serial_number[8];
+  HAL_Delay(200);  // Give SPI time to settle
+  test_spi_rdcfga();
 
   /* USER CODE END 2 */
 
@@ -102,15 +167,22 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-    HAL_Delay(100); // 1 second delay
+    HAL_Delay(500); // 1 second delay
 
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
-    HAL_Delay(100);
+    HAL_Delay(500);
 
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_2);
-    HAL_Delay(100);
-    /* USER CODE BEGIN 3 */
+    HAL_Delay(500);
+
+    test_spi_rdcfga();
+
+    CDC_Transmit_HS((uint8_t*)"Hello USB\r\n", 11);
+    HAL_Delay(1000);
+
   }
   /* USER CODE END 3 */
 }
@@ -137,8 +209,9 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI48|RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.HSI48State = RCC_HSI48_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 1;

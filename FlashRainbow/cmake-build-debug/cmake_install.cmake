@@ -1,4 +1,4 @@
-# Install script for directory: C:/Git/LHR/FlashRainbow
+# Install script for directory: C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Git/LHR/FlashRainbow/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

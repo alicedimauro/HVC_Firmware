@@ -155,23 +155,39 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/CMSIS/Include"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
 				}
 			],
 			"language" : "C",
@@ -194,9 +210,6 @@
 				13,
 				14,
 				15,
-				81,
-				82,
-				83,
 				84,
 				85,
 				86,
@@ -211,7 +224,21 @@
 				95,
 				96,
 				97,
-				98
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				106,
+				111,
+				112,
+				113,
+				115,
+				117,
+				119,
+				121
 			]
 		},
 		{
@@ -288,23 +315,39 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/FlashRainbow/Drivers/CMSIS/Include"
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
 				}
 			],
 			"language" : "ASM",
@@ -329,7 +372,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Git/LHR/FlashRainbow/cmake-build-debug/FlashRainbow.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug/FlashRainbow.map",
 				"role" : "flags"
 			},
 			{
@@ -354,7 +397,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Git/LHR/FlashRainbow/STM32H723VGTX_FLASH.ld",
+				"fragment" : "C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/STM32H723VGTX_FLASH.ld",
 				"role" : "flags"
 			}
 		],
@@ -440,7 +483,19 @@
 				76,
 				77,
 				78,
-				79
+				79,
+				80,
+				81,
+				82,
+				105,
+				107,
+				108,
+				109,
+				110,
+				116,
+				118,
+				120,
+				122
 			]
 		},
 		{
@@ -456,9 +511,6 @@
 				13,
 				14,
 				15,
-				81,
-				82,
-				83,
 				84,
 				85,
 				86,
@@ -473,7 +525,21 @@
 				95,
 				96,
 				97,
-				98
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				106,
+				111,
+				112,
+				113,
+				115,
+				117,
+				119,
+				121
 			]
 		},
 		{
@@ -483,8 +549,9 @@
 				16,
 				20,
 				45,
-				80,
-				99
+				83,
+				114,
+				123
 			]
 		}
 	],
@@ -807,6 +874,16 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h",
 			"sourceGroupIndex" : 0
 		},
@@ -897,6 +974,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h",
 			"sourceGroupIndex" : 0
 		},
@@ -980,6 +1062,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
 			"sourceGroupIndex" : 1
 		},
@@ -1012,6 +1106,110 @@
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usb_device.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usb_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_cdc_if.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_cdc_if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_desc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_desc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/Target/usbd_conf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/Target/usbd_conf.h",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,

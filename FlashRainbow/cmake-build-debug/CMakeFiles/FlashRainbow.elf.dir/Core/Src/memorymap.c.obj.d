@@ -48,4 +48,6 @@ CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj: \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_i2c_ex.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr.h \
- C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr_ex.h
+ C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr_ex.h \
+ C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi.h \
+ C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi_ex.h

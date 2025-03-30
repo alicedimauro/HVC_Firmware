@@ -31,9 +31,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Git/LHR/FlashRainbow/Core/Src/cells.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/gpio.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/main.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/memorymap.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj.d"
+  "C:/Git/LHR/FlashRainbow/Core/Src/spi.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/stm32h7xx_hal_msp.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/stm32h7xx_it.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Core/Src/syscalls.c" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj.d"
@@ -55,6 +57,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj.d"
   "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj.d"
+  "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj.d"
+  "C:/Git/LHR/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj" "gcc" "CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

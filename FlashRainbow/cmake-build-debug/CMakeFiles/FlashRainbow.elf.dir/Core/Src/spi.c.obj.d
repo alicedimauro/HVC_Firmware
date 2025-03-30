@@ -1,5 +1,7 @@
-CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: \
- C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c \
+CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj: \
+ C:\Git\LHR\FlashRainbow\Core\Src\spi.c \
+ C:\Git\LHR\FlashRainbow\Core\Inc/spi.h \
+ C:\Git\LHR\FlashRainbow\Core\Inc/main.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal.h \
  C:\Git\LHR\FlashRainbow\Core\Inc/stm32h7xx_hal_conf.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_rcc.h \

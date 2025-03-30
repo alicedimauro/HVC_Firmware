@@ -128,6 +128,30 @@ FlashRainbow.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/build
 .PHONY : FlashRainbow.elf/fast
 
+Core/Src/cells.obj: Core/Src/cells.c.obj
+.PHONY : Core/Src/cells.obj
+
+# target to build an object file
+Core/Src/cells.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.obj
+.PHONY : Core/Src/cells.c.obj
+
+Core/Src/cells.i: Core/Src/cells.c.i
+.PHONY : Core/Src/cells.i
+
+# target to preprocess a source file
+Core/Src/cells.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.i
+.PHONY : Core/Src/cells.c.i
+
+Core/Src/cells.s: Core/Src/cells.c.s
+.PHONY : Core/Src/cells.s
+
+# target to generate assembly for a file
+Core/Src/cells.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/cells.c.s
+.PHONY : Core/Src/cells.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -199,6 +223,30 @@ Core/Src/memorymap.s: Core/Src/memorymap.c.s
 Core/Src/memorymap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.s
 .PHONY : Core/Src/memorymap.c.s
+
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
 
 Core/Src/stm32h7xx_hal_msp.obj: Core/Src/stm32h7xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32h7xx_hal_msp.obj
@@ -712,6 +760,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -721,6 +817,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FlashRainbow.elf
+	@echo ... Core/Src/cells.obj
+	@echo ... Core/Src/cells.i
+	@echo ... Core/Src/cells.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -730,6 +829,9 @@ help:
 	@echo ... Core/Src/memorymap.obj
 	@echo ... Core/Src/memorymap.i
 	@echo ... Core/Src/memorymap.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32h7xx_hal_msp.obj
 	@echo ... Core/Src/stm32h7xx_hal_msp.i
 	@echo ... Core/Src/stm32h7xx_hal_msp.s
@@ -794,6 +896,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s
 .PHONY : help
 
 

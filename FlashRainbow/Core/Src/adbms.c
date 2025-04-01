@@ -11,7 +11,7 @@
 #define CMD_READ_REG 0x0A      // Read register command opcode
 #define REG_STATUSA  0x0000     // STATUSA register address
 
-// SPI Instance (Assumes SPI3 - Check your CubeIDE setup)
+// SPI Instance (Assumes SPI3 - Check CubeIDE setup)
 extern SPI_HandleTypeDef hspi3;
 
 // Chip Select Pin Configuration (PD9)

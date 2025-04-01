@@ -1715,7 +1715,7 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
                 0x08000000                g_pfnVectors
                 0x080002cc                        . = ALIGN (0x4)
 
-.text           0x080002cc     0x57f4
+.text           0x080002cc     0x57e4
                 0x080002cc                        . = ALIGN (0x4)
  *(.text)
  .text          0x080002cc      0x21c C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
@@ -1761,797 +1761,797 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
  .text.SystemClock_Config
                 0x0800099c       0xa8 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
                 0x0800099c                SystemClock_Config
- .text.main     0x08000a44       0x70 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .text.main     0x08000a44       0x60 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
                 0x08000a44                main
  .text.MX_SPI3_Init
-                0x08000ab4       0x60 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
-                0x08000ab4                MX_SPI3_Init
+                0x08000aa4       0x60 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+                0x08000aa4                MX_SPI3_Init
  .text.HAL_SPI_MspInit
-                0x08000b14       0xd0 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
-                0x08000b14                HAL_SPI_MspInit
+                0x08000b04       0xd0 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+                0x08000b04                HAL_SPI_MspInit
  .text.HAL_MspInit
-                0x08000be4       0x24 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
-                0x08000be4                HAL_MspInit
+                0x08000bd4       0x24 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+                0x08000bd4                HAL_MspInit
  .text.NMI_Handler
-                0x08000c08        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c08                NMI_Handler
+                0x08000bf8        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000bf8                NMI_Handler
  .text.HardFault_Handler
-                0x08000c0a        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c0a                HardFault_Handler
+                0x08000bfa        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000bfa                HardFault_Handler
  .text.MemManage_Handler
-                0x08000c0c        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c0c                MemManage_Handler
+                0x08000bfc        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000bfc                MemManage_Handler
  .text.BusFault_Handler
-                0x08000c0e        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c0e                BusFault_Handler
+                0x08000bfe        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000bfe                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000c10        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c10                UsageFault_Handler
+                0x08000c00        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c00                UsageFault_Handler
  .text.SVC_Handler
-                0x08000c12        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c12                SVC_Handler
+                0x08000c02        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c02                SVC_Handler
  .text.DebugMon_Handler
-                0x08000c14        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c14                DebugMon_Handler
+                0x08000c04        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c04                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000c16        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c16                PendSV_Handler
+                0x08000c06        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c06                PendSV_Handler
  .text.SysTick_Handler
-                0x08000c18        0x8 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c18                SysTick_Handler
+                0x08000c08        0x8 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c08                SysTick_Handler
  .text.OTG_HS_IRQHandler
-                0x08000c20       0x10 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x08000c20                OTG_HS_IRQHandler
+                0x08000c10       0x10 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x08000c10                OTG_HS_IRQHandler
  .text.SystemInit
-                0x08000c30       0xbc CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
-                0x08000c30                SystemInit
+                0x08000c20       0xbc CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x08000c20                SystemInit
  .text.ExitRun0Mode
-                0x08000cec       0x1c CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
-                0x08000cec                ExitRun0Mode
+                0x08000cdc       0x1c CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x08000cdc                ExitRun0Mode
  .text.Reset_Handler
-                0x08000d08       0x54 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
-                0x08000d08                Reset_Handler
+                0x08000cf8       0x54 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+                0x08000cf8                Reset_Handler
  .text.Default_Handler
-                0x08000d5c        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
-                0x08000d5c                RTC_Alarm_IRQHandler
-                0x08000d5c                EXTI2_IRQHandler
-                0x08000d5c                TIM8_CC_IRQHandler
-                0x08000d5c                UART8_IRQHandler
-                0x08000d5c                SPI4_IRQHandler
-                0x08000d5c                FDCAN3_IT0_IRQHandler
-                0x08000d5c                TIM1_CC_IRQHandler
-                0x08000d5c                BDMA_Channel6_IRQHandler
-                0x08000d5c                DMA2_Stream5_IRQHandler
-                0x08000d5c                DMA1_Stream5_IRQHandler
-                0x08000d5c                CORDIC_IRQHandler
-                0x08000d5c                BDMA_Channel1_IRQHandler
-                0x08000d5c                TAMP_STAMP_IRQHandler
-                0x08000d5c                EXTI3_IRQHandler
-                0x08000d5c                LPTIM4_IRQHandler
-                0x08000d5c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08000d5c                LPTIM2_IRQHandler
-                0x08000d5c                DFSDM1_FLT1_IRQHandler
-                0x08000d5c                DMAMUX2_OVR_IRQHandler
-                0x08000d5c                TIM8_UP_TIM13_IRQHandler
-                0x08000d5c                I2C3_ER_IRQHandler
-                0x08000d5c                DFSDM1_FLT2_IRQHandler
-                0x08000d5c                I2C5_EV_IRQHandler
-                0x08000d5c                USART10_IRQHandler
-                0x08000d5c                MDMA_IRQHandler
-                0x08000d5c                LPTIM3_IRQHandler
-                0x08000d5c                HSEM1_IRQHandler
-                0x08000d5c                EXTI0_IRQHandler
-                0x08000d5c                I2C2_EV_IRQHandler
-                0x08000d5c                DMA1_Stream2_IRQHandler
-                0x08000d5c                FPU_IRQHandler
-                0x08000d5c                OTG_HS_WKUP_IRQHandler
-                0x08000d5c                FDCAN1_IT1_IRQHandler
-                0x08000d5c                LTDC_ER_IRQHandler
-                0x08000d5c                DMA2_Stream2_IRQHandler
-                0x08000d5c                SPI1_IRQHandler
-                0x08000d5c                OCTOSPI1_IRQHandler
-                0x08000d5c                TIM6_DAC_IRQHandler
-                0x08000d5c                DMA2_Stream3_IRQHandler
-                0x08000d5c                OCTOSPI2_IRQHandler
-                0x08000d5c                DFSDM1_FLT3_IRQHandler
-                0x08000d5c                TIM23_IRQHandler
-                0x08000d5c                USART6_IRQHandler
-                0x08000d5c                TIM17_IRQHandler
-                0x08000d5c                USART3_IRQHandler
-                0x08000d5c                BDMA_Channel7_IRQHandler
-                0x08000d5c                LPTIM5_IRQHandler
-                0x08000d5c                UART5_IRQHandler
-                0x08000d5c                ADC3_IRQHandler
-                0x08000d5c                DMA2_Stream0_IRQHandler
-                0x08000d5c                TIM4_IRQHandler
-                0x08000d5c                BDMA_Channel2_IRQHandler
-                0x08000d5c                I2C1_EV_IRQHandler
-                0x08000d5c                DMA1_Stream6_IRQHandler
-                0x08000d5c                DMAMUX1_OVR_IRQHandler
-                0x08000d5c                DMA1_Stream1_IRQHandler
-                0x08000d5c                TIM16_IRQHandler
-                0x08000d5c                UART4_IRQHandler
-                0x08000d5c                BDMA_Channel5_IRQHandler
-                0x08000d5c                TIM3_IRQHandler
-                0x08000d5c                RCC_IRQHandler
-                0x08000d5c                UART9_IRQHandler
-                0x08000d5c                TIM8_BRK_TIM12_IRQHandler
-                0x08000d5c                TIM1_TRG_COM_IRQHandler
-                0x08000d5c                Default_Handler
-                0x08000d5c                ECC_IRQHandler
-                0x08000d5c                FMAC_IRQHandler
-                0x08000d5c                CEC_IRQHandler
-                0x08000d5c                EXTI15_10_IRQHandler
-                0x08000d5c                BDMA_Channel0_IRQHandler
-                0x08000d5c                ADC_IRQHandler
-                0x08000d5c                I2C5_ER_IRQHandler
-                0x08000d5c                DMA1_Stream7_IRQHandler
-                0x08000d5c                SPI5_IRQHandler
-                0x08000d5c                TIM7_IRQHandler
-                0x08000d5c                FDCAN3_IT1_IRQHandler
-                0x08000d5c                SDMMC1_IRQHandler
-                0x08000d5c                TIM5_IRQHandler
-                0x08000d5c                DMA2_Stream7_IRQHandler
-                0x08000d5c                TIM15_IRQHandler
-                0x08000d5c                PVD_AVD_IRQHandler
-                0x08000d5c                I2C3_EV_IRQHandler
-                0x08000d5c                EXTI9_5_IRQHandler
-                0x08000d5c                RTC_WKUP_IRQHandler
-                0x08000d5c                LTDC_IRQHandler
-                0x08000d5c                ETH_WKUP_IRQHandler
-                0x08000d5c                SPDIF_RX_IRQHandler
-                0x08000d5c                SPI2_IRQHandler
-                0x08000d5c                OTG_HS_EP1_IN_IRQHandler
-                0x08000d5c                DMA1_Stream0_IRQHandler
-                0x08000d5c                TIM24_IRQHandler
-                0x08000d5c                CRS_IRQHandler
-                0x08000d5c                EXTI4_IRQHandler
-                0x08000d5c                RNG_IRQHandler
-                0x08000d5c                FDCAN2_IT1_IRQHandler
-                0x08000d5c                ETH_IRQHandler
-                0x08000d5c                TIM1_UP_IRQHandler
-                0x08000d5c                BDMA_Channel4_IRQHandler
-                0x08000d5c                OTG_HS_EP1_OUT_IRQHandler
-                0x08000d5c                WWDG_IRQHandler
-                0x08000d5c                SPI6_IRQHandler
-                0x08000d5c                MDIOS_IRQHandler
-                0x08000d5c                I2C4_EV_IRQHandler
-                0x08000d5c                FDCAN2_IT0_IRQHandler
-                0x08000d5c                LPUART1_IRQHandler
-                0x08000d5c                FDCAN1_IT0_IRQHandler
-                0x08000d5c                TIM2_IRQHandler
-                0x08000d5c                DMA2D_IRQHandler
-                0x08000d5c                TIM1_BRK_IRQHandler
-                0x08000d5c                EXTI1_IRQHandler
-                0x08000d5c                SDMMC2_IRQHandler
-                0x08000d5c                BDMA_Channel3_IRQHandler
-                0x08000d5c                DTS_IRQHandler
-                0x08000d5c                UART7_IRQHandler
-                0x08000d5c                MDIOS_WKUP_IRQHandler
-                0x08000d5c                USART2_IRQHandler
-                0x08000d5c                DFSDM1_FLT0_IRQHandler
-                0x08000d5c                SAI4_IRQHandler
-                0x08000d5c                I2C2_ER_IRQHandler
-                0x08000d5c                DMA2_Stream1_IRQHandler
-                0x08000d5c                FLASH_IRQHandler
-                0x08000d5c                DMA2_Stream4_IRQHandler
-                0x08000d5c                USART1_IRQHandler
-                0x08000d5c                SPI3_IRQHandler
-                0x08000d5c                WAKEUP_PIN_IRQHandler
-                0x08000d5c                DMA1_Stream4_IRQHandler
-                0x08000d5c                I2C1_ER_IRQHandler
-                0x08000d5c                FMC_IRQHandler
-                0x08000d5c                FDCAN_CAL_IRQHandler
-                0x08000d5c                SWPMI1_IRQHandler
-                0x08000d5c                COMP1_IRQHandler
-                0x08000d5c                LPTIM1_IRQHandler
-                0x08000d5c                DCMI_PSSI_IRQHandler
-                0x08000d5c                I2C4_ER_IRQHandler
-                0x08000d5c                DMA2_Stream6_IRQHandler
-                0x08000d5c                SAI1_IRQHandler
-                0x08000d5c                DMA1_Stream3_IRQHandler
- *fill*         0x08000d5e        0x2 
+                0x08000d4c        0x2 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+                0x08000d4c                RTC_Alarm_IRQHandler
+                0x08000d4c                EXTI2_IRQHandler
+                0x08000d4c                TIM8_CC_IRQHandler
+                0x08000d4c                UART8_IRQHandler
+                0x08000d4c                SPI4_IRQHandler
+                0x08000d4c                FDCAN3_IT0_IRQHandler
+                0x08000d4c                TIM1_CC_IRQHandler
+                0x08000d4c                BDMA_Channel6_IRQHandler
+                0x08000d4c                DMA2_Stream5_IRQHandler
+                0x08000d4c                DMA1_Stream5_IRQHandler
+                0x08000d4c                CORDIC_IRQHandler
+                0x08000d4c                BDMA_Channel1_IRQHandler
+                0x08000d4c                TAMP_STAMP_IRQHandler
+                0x08000d4c                EXTI3_IRQHandler
+                0x08000d4c                LPTIM4_IRQHandler
+                0x08000d4c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000d4c                LPTIM2_IRQHandler
+                0x08000d4c                DFSDM1_FLT1_IRQHandler
+                0x08000d4c                DMAMUX2_OVR_IRQHandler
+                0x08000d4c                TIM8_UP_TIM13_IRQHandler
+                0x08000d4c                I2C3_ER_IRQHandler
+                0x08000d4c                DFSDM1_FLT2_IRQHandler
+                0x08000d4c                I2C5_EV_IRQHandler
+                0x08000d4c                USART10_IRQHandler
+                0x08000d4c                MDMA_IRQHandler
+                0x08000d4c                LPTIM3_IRQHandler
+                0x08000d4c                HSEM1_IRQHandler
+                0x08000d4c                EXTI0_IRQHandler
+                0x08000d4c                I2C2_EV_IRQHandler
+                0x08000d4c                DMA1_Stream2_IRQHandler
+                0x08000d4c                FPU_IRQHandler
+                0x08000d4c                OTG_HS_WKUP_IRQHandler
+                0x08000d4c                FDCAN1_IT1_IRQHandler
+                0x08000d4c                LTDC_ER_IRQHandler
+                0x08000d4c                DMA2_Stream2_IRQHandler
+                0x08000d4c                SPI1_IRQHandler
+                0x08000d4c                OCTOSPI1_IRQHandler
+                0x08000d4c                TIM6_DAC_IRQHandler
+                0x08000d4c                DMA2_Stream3_IRQHandler
+                0x08000d4c                OCTOSPI2_IRQHandler
+                0x08000d4c                DFSDM1_FLT3_IRQHandler
+                0x08000d4c                TIM23_IRQHandler
+                0x08000d4c                USART6_IRQHandler
+                0x08000d4c                TIM17_IRQHandler
+                0x08000d4c                USART3_IRQHandler
+                0x08000d4c                BDMA_Channel7_IRQHandler
+                0x08000d4c                LPTIM5_IRQHandler
+                0x08000d4c                UART5_IRQHandler
+                0x08000d4c                ADC3_IRQHandler
+                0x08000d4c                DMA2_Stream0_IRQHandler
+                0x08000d4c                TIM4_IRQHandler
+                0x08000d4c                BDMA_Channel2_IRQHandler
+                0x08000d4c                I2C1_EV_IRQHandler
+                0x08000d4c                DMA1_Stream6_IRQHandler
+                0x08000d4c                DMAMUX1_OVR_IRQHandler
+                0x08000d4c                DMA1_Stream1_IRQHandler
+                0x08000d4c                TIM16_IRQHandler
+                0x08000d4c                UART4_IRQHandler
+                0x08000d4c                BDMA_Channel5_IRQHandler
+                0x08000d4c                TIM3_IRQHandler
+                0x08000d4c                RCC_IRQHandler
+                0x08000d4c                UART9_IRQHandler
+                0x08000d4c                TIM8_BRK_TIM12_IRQHandler
+                0x08000d4c                TIM1_TRG_COM_IRQHandler
+                0x08000d4c                Default_Handler
+                0x08000d4c                ECC_IRQHandler
+                0x08000d4c                FMAC_IRQHandler
+                0x08000d4c                CEC_IRQHandler
+                0x08000d4c                EXTI15_10_IRQHandler
+                0x08000d4c                BDMA_Channel0_IRQHandler
+                0x08000d4c                ADC_IRQHandler
+                0x08000d4c                I2C5_ER_IRQHandler
+                0x08000d4c                DMA1_Stream7_IRQHandler
+                0x08000d4c                SPI5_IRQHandler
+                0x08000d4c                TIM7_IRQHandler
+                0x08000d4c                FDCAN3_IT1_IRQHandler
+                0x08000d4c                SDMMC1_IRQHandler
+                0x08000d4c                TIM5_IRQHandler
+                0x08000d4c                DMA2_Stream7_IRQHandler
+                0x08000d4c                TIM15_IRQHandler
+                0x08000d4c                PVD_AVD_IRQHandler
+                0x08000d4c                I2C3_EV_IRQHandler
+                0x08000d4c                EXTI9_5_IRQHandler
+                0x08000d4c                RTC_WKUP_IRQHandler
+                0x08000d4c                LTDC_IRQHandler
+                0x08000d4c                ETH_WKUP_IRQHandler
+                0x08000d4c                SPDIF_RX_IRQHandler
+                0x08000d4c                SPI2_IRQHandler
+                0x08000d4c                OTG_HS_EP1_IN_IRQHandler
+                0x08000d4c                DMA1_Stream0_IRQHandler
+                0x08000d4c                TIM24_IRQHandler
+                0x08000d4c                CRS_IRQHandler
+                0x08000d4c                EXTI4_IRQHandler
+                0x08000d4c                RNG_IRQHandler
+                0x08000d4c                FDCAN2_IT1_IRQHandler
+                0x08000d4c                ETH_IRQHandler
+                0x08000d4c                TIM1_UP_IRQHandler
+                0x08000d4c                BDMA_Channel4_IRQHandler
+                0x08000d4c                OTG_HS_EP1_OUT_IRQHandler
+                0x08000d4c                WWDG_IRQHandler
+                0x08000d4c                SPI6_IRQHandler
+                0x08000d4c                MDIOS_IRQHandler
+                0x08000d4c                I2C4_EV_IRQHandler
+                0x08000d4c                FDCAN2_IT0_IRQHandler
+                0x08000d4c                LPUART1_IRQHandler
+                0x08000d4c                FDCAN1_IT0_IRQHandler
+                0x08000d4c                TIM2_IRQHandler
+                0x08000d4c                DMA2D_IRQHandler
+                0x08000d4c                TIM1_BRK_IRQHandler
+                0x08000d4c                EXTI1_IRQHandler
+                0x08000d4c                SDMMC2_IRQHandler
+                0x08000d4c                BDMA_Channel3_IRQHandler
+                0x08000d4c                DTS_IRQHandler
+                0x08000d4c                UART7_IRQHandler
+                0x08000d4c                MDIOS_WKUP_IRQHandler
+                0x08000d4c                USART2_IRQHandler
+                0x08000d4c                DFSDM1_FLT0_IRQHandler
+                0x08000d4c                SAI4_IRQHandler
+                0x08000d4c                I2C2_ER_IRQHandler
+                0x08000d4c                DMA2_Stream1_IRQHandler
+                0x08000d4c                FLASH_IRQHandler
+                0x08000d4c                DMA2_Stream4_IRQHandler
+                0x08000d4c                USART1_IRQHandler
+                0x08000d4c                SPI3_IRQHandler
+                0x08000d4c                WAKEUP_PIN_IRQHandler
+                0x08000d4c                DMA1_Stream4_IRQHandler
+                0x08000d4c                I2C1_ER_IRQHandler
+                0x08000d4c                FMC_IRQHandler
+                0x08000d4c                FDCAN_CAL_IRQHandler
+                0x08000d4c                SWPMI1_IRQHandler
+                0x08000d4c                COMP1_IRQHandler
+                0x08000d4c                LPTIM1_IRQHandler
+                0x08000d4c                DCMI_PSSI_IRQHandler
+                0x08000d4c                I2C4_ER_IRQHandler
+                0x08000d4c                DMA2_Stream6_IRQHandler
+                0x08000d4c                SAI1_IRQHandler
+                0x08000d4c                DMA1_Stream3_IRQHandler
+ *fill*         0x08000d4e        0x2 
  .text.HAL_InitTick
-                0x08000d60       0x50 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000d60                HAL_InitTick
+                0x08000d50       0x50 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000d50                HAL_InitTick
  .text.HAL_Init
-                0x08000db0       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000db0                HAL_Init
+                0x08000da0       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000da0                HAL_Init
  .text.HAL_IncTick
-                0x08000e0c       0x18 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000e0c                HAL_IncTick
+                0x08000dfc       0x18 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000dfc                HAL_IncTick
  .text.HAL_GetTick
-                0x08000e24        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000e24                HAL_GetTick
+                0x08000e14        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000e14                HAL_GetTick
  .text.HAL_Delay
-                0x08000e30       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000e30                HAL_Delay
+                0x08000e20       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000e20                HAL_Delay
  .text.HAL_SYSCFG_AnalogSwitchConfig
-                0x08000e58       0x14 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x08000e58                HAL_SYSCFG_AnalogSwitchConfig
+                0x08000e48       0x14 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x08000e48                HAL_SYSCFG_AnalogSwitchConfig
  .text.__NVIC_EnableIRQ
-                0x08000e6c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000e5c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08000e88       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000e78       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08000eac       0x3e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- *fill*         0x08000eea        0x2 
+                0x08000e9c       0x3e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ *fill*         0x08000eda        0x2 
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000eec       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000eec                HAL_NVIC_SetPriorityGrouping
+                0x08000edc       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000edc                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000f10       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f10                HAL_NVIC_SetPriority
+                0x08000f00       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f00                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08000f30        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f30                HAL_NVIC_EnableIRQ
+                0x08000f20        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f20                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08000f38       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f38                HAL_SYSTICK_Config
+                0x08000f28       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f28                HAL_SYSTICK_Config
  .text.HAL_MPU_Disable
-                0x08000f60       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f60                HAL_MPU_Disable
+                0x08000f50       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f50                HAL_MPU_Disable
  .text.HAL_MPU_Enable
-                0x08000f7c       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f7c                HAL_MPU_Enable
+                0x08000f6c       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f6c                HAL_MPU_Enable
  .text.HAL_MPU_ConfigRegion
-                0x08000f9c       0x58 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x08000f9c                HAL_MPU_ConfigRegion
+                0x08000f8c       0x58 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x08000f8c                HAL_MPU_ConfigRegion
  .text.HAL_GPIO_Init
-                0x08000ff4      0x21c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x08000ff4                HAL_GPIO_Init
+                0x08000fe4      0x21c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x08000fe4                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08001210        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x08001210                HAL_GPIO_WritePin
+                0x08001200        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x08001200                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x0800121c       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x0800121c                HAL_GPIO_TogglePin
+                0x0800120c       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x0800120c                HAL_GPIO_TogglePin
  .text.PCD_WriteEmptyTxFifo
-                0x0800122e       0xd0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x0800121e       0xd0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
  .text.HAL_PCD_Init
-                0x080012fe      0x102 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x080012fe                HAL_PCD_Init
+                0x080012ee      0x102 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080012ee                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x08001400       0x44 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x08001400                HAL_PCD_Start
+                0x080013f0       0x44 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080013f0                HAL_PCD_Start
  .text.PCD_EP_OutXfrComplete_int
-                0x08001444      0x104 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x08001434      0x104 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
  .text.PCD_EP_OutSetupPacket_int
-                0x08001548       0x50 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x08001538       0x50 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
  .text.HAL_PCD_SetAddress
-                0x08001598       0x26 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x08001598                HAL_PCD_SetAddress
+                0x08001588       0x26 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x08001588                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x080015be       0x8c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x080015be                HAL_PCD_EP_Open
+                0x080015ae       0x8c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080015ae                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x0800164a       0x70 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x0800164a                HAL_PCD_EP_Close
+                0x0800163a       0x70 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x0800163a                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x080016ba       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x080016ba                HAL_PCD_EP_Receive
+                0x080016aa       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080016aa                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_GetRxCount
-                0x08001704       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x08001704                HAL_PCD_EP_GetRxCount
+                0x080016f4       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080016f4                HAL_PCD_EP_GetRxCount
  .text.HAL_PCD_EP_Transmit
-                0x08001716       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x08001716                HAL_PCD_EP_Transmit
+                0x08001706       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x08001706                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x08001760       0x86 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x08001760                HAL_PCD_EP_SetStall
+                0x08001750       0x86 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x08001750                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x080017e6       0x74 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x080017e6                HAL_PCD_EP_ClrStall
+                0x080017d6       0x74 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x080017d6                HAL_PCD_EP_ClrStall
  .text.HAL_PCD_EP_Abort
-                0x0800185a       0x34 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x0800185a                HAL_PCD_EP_Abort
+                0x0800184a       0x34 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x0800184a                HAL_PCD_EP_Abort
  .text.HAL_PCD_IRQHandler
-                0x0800188e      0x600 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-                0x0800188e                HAL_PCD_IRQHandler
+                0x0800187e      0x600 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+                0x0800187e                HAL_PCD_IRQHandler
  .text.HAL_PCDEx_SetTxFiFo
-                0x08001e8e       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-                0x08001e8e                HAL_PCDEx_SetTxFiFo
+                0x08001e7e       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+                0x08001e7e                HAL_PCDEx_SetTxFiFo
  .text.HAL_PCDEx_SetRxFiFo
-                0x08001ed8        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-                0x08001ed8                HAL_PCDEx_SetRxFiFo
+                0x08001ec8        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+                0x08001ec8                HAL_PCDEx_SetRxFiFo
  .text.HAL_PCDEx_ActivateLPM
-                0x08001ee0       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-                0x08001ee0                HAL_PCDEx_ActivateLPM
+                0x08001ed0       0x28 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+                0x08001ed0                HAL_PCDEx_ActivateLPM
  .text.HAL_PCDEx_LPM_Callback
-                0x08001f08        0x2 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-                0x08001f08                HAL_PCDEx_LPM_Callback
- *fill*         0x08001f0a        0x2 
+                0x08001ef8        0x2 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+                0x08001ef8                HAL_PCDEx_LPM_Callback
+ *fill*         0x08001efa        0x2 
  .text.HAL_PWREx_ConfigSupply
-                0x08001f0c       0x54 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
-                0x08001f0c                HAL_PWREx_ConfigSupply
+                0x08001efc       0x54 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+                0x08001efc                HAL_PWREx_ConfigSupply
  .text.HAL_PWREx_EnableUSBVoltageDetector
-                0x08001f60       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
-                0x08001f60                HAL_PWREx_EnableUSBVoltageDetector
+                0x08001f50       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+                0x08001f50                HAL_PWREx_EnableUSBVoltageDetector
  .text.HAL_RCC_OscConfig
-                0x08001f70      0x5e4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x08001f70                HAL_RCC_OscConfig
+                0x08001f60      0x5e4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x08001f60                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002554      0x224 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x08002554                HAL_RCC_GetSysClockFreq
+                0x08002544      0x224 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x08002544                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002778      0x294 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x08002778                HAL_RCC_ClockConfig
+                0x08002768      0x294 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x08002768                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08002a0c       0x44 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x08002a0c                HAL_RCC_GetHCLKFreq
+                0x080029fc       0x44 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x080029fc                HAL_RCC_GetHCLKFreq
  .text.RCCEx_PLL2_Config
-                0x08002a50      0x108 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x08002a40      0x108 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
  .text.RCCEx_PLL3_Config
-                0x08002b58      0x108 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x08002b48      0x108 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08002c60      0xa2c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                0x08002c60                HAL_RCCEx_PeriphCLKConfig
+                0x08002c50      0xa2c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x08002c50                HAL_RCCEx_PeriphCLKConfig
  .text.SPI_GetPacketSize
-                0x0800368c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0800367c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.HAL_SPI_Init
-                0x0800369c      0x190 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x0800369c                HAL_SPI_Init
+                0x0800368c      0x190 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0800368c                HAL_SPI_Init
  .text.USB_CoreReset
-                0x0800382c       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- *fill*         0x08003876        0x2 
+                0x0800381c       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ *fill*         0x08003866        0x2 
  .text.USB_CoreInit
-                0x08003878       0xa4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003878                USB_CoreInit
+                0x08003868       0xa4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003868                USB_CoreInit
  .text.USB_SetTurnaroundTime
-                0x0800391c       0xe4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800391c                USB_SetTurnaroundTime
+                0x0800390c       0xe4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800390c                USB_SetTurnaroundTime
  .text.USB_EnableGlobalInt
-                0x08003a00        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003a00                USB_EnableGlobalInt
+                0x080039f0        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080039f0                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x08003a0c        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003a0c                USB_DisableGlobalInt
+                0x080039fc        0xc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080039fc                USB_DisableGlobalInt
  .text.USB_FlushTxFifo
-                0x08003a18       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003a18                USB_FlushTxFifo
+                0x08003a08       0x4a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003a08                USB_FlushTxFifo
  .text.USB_FlushRxFifo
-                0x08003a62       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003a62                USB_FlushRxFifo
+                0x08003a52       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003a52                USB_FlushRxFifo
  .text.USB_SetDevSpeed
-                0x08003aa8        0xe CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003aa8                USB_SetDevSpeed
- *fill*         0x08003ab6        0x2 
+                0x08003a98        0xe CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003a98                USB_SetDevSpeed
+ *fill*         0x08003aa6        0x2 
  .text.USB_DevInit
-                0x08003ab8      0x18c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003ab8                USB_DevInit
+                0x08003aa8      0x18c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003aa8                USB_DevInit
  .text.USB_GetDevSpeed
-                0x08003c44       0x22 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003c44                USB_GetDevSpeed
- *fill*         0x08003c66        0x2 
+                0x08003c34       0x22 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003c34                USB_GetDevSpeed
+ *fill*         0x08003c56        0x2 
  .text.USB_ActivateEndpoint
-                0x08003c68       0x98 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003c68                USB_ActivateEndpoint
+                0x08003c58       0x98 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003c58                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x08003d00       0xe0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003d00                USB_DeactivateEndpoint
+                0x08003cf0       0xe0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003cf0                USB_DeactivateEndpoint
  .text.USB_EPStopXfer
-                0x08003de0       0xbc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003de0                USB_EPStopXfer
+                0x08003dd0       0xbc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003dd0                USB_EPStopXfer
  .text.USB_WritePacket
-                0x08003e9c       0x2e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003e9c                USB_WritePacket
- *fill*         0x08003eca        0x2 
+                0x08003e8c       0x2e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003e8c                USB_WritePacket
+ *fill*         0x08003eba        0x2 
  .text.USB_EPStartXfer
-                0x08003ecc      0x244 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08003ecc                USB_EPStartXfer
+                0x08003ebc      0x244 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08003ebc                USB_EPStartXfer
  .text.USB_ReadPacket
-                0x08004110       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08004110                USB_ReadPacket
+                0x08004100       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08004100                USB_ReadPacket
  .text.USB_EPSetStall
-                0x08004156       0x5a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08004156                USB_EPSetStall
+                0x08004146       0x5a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08004146                USB_EPSetStall
  .text.USB_EPClearStall
-                0x080041b0       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x080041b0                USB_EPClearStall
+                0x080041a0       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080041a0                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x0800420c       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800420c                USB_SetDevAddress
+                0x080041fc       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080041fc                USB_SetDevAddress
  .text.USB_DevConnect
-                0x0800422c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800422c                USB_DevConnect
+                0x0800421c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800421c                USB_DevConnect
  .text.USB_DevDisconnect
-                0x08004248       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08004248                USB_DevDisconnect
+                0x08004238       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08004238                USB_DevDisconnect
  .text.USB_ReadInterrupts
-                0x08004264        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08004264                USB_ReadInterrupts
+                0x08004254        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08004254                USB_ReadInterrupts
  .text.USB_ReadDevAllOutEpInterrupt
-                0x0800426c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800426c                USB_ReadDevAllOutEpInterrupt
+                0x0800425c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800425c                USB_ReadDevAllOutEpInterrupt
  .text.USB_ReadDevAllInEpInterrupt
-                0x0800427c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800427c                USB_ReadDevAllInEpInterrupt
+                0x0800426c       0x10 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800426c                USB_ReadDevAllInEpInterrupt
  .text.USB_ReadDevOutEPInterrupt
-                0x0800428c       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800428c                USB_ReadDevOutEPInterrupt
+                0x0800427c       0x12 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800427c                USB_ReadDevOutEPInterrupt
  .text.USB_ReadDevInEPInterrupt
-                0x0800429e       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800429e                USB_ReadDevInEPInterrupt
+                0x0800428e       0x24 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800428e                USB_ReadDevInEPInterrupt
  .text.USB_GetMode
-                0x080042c2        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x080042c2                USB_GetMode
+                0x080042b2        0x8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080042b2                USB_GetMode
  .text.USB_SetCurrentMode
-                0x080042ca       0x62 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x080042ca                USB_SetCurrentMode
+                0x080042ba       0x62 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x080042ba                USB_SetCurrentMode
  .text.USB_ActivateSetup
-                0x0800432c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x0800432c                USB_ActivateSetup
+                0x0800431c       0x1c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x0800431c                USB_ActivateSetup
  .text.USB_EP0_OutStart
-                0x08004348       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-                0x08004348                USB_EP0_OutStart
+                0x08004338       0x5c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+                0x08004338                USB_EP0_OutStart
  .text.USBD_CDC_EP0_RxReady
-                0x080043a4       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x08004394       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-                0x080043e4        0xc CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x080043e4                USBD_CDC_GetDeviceQualifierDescriptor
+                0x080043d4        0xc CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080043d4                USBD_CDC_GetDeviceQualifierDescriptor
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-                0x080043f0       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080043e0       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetFSCfgDesc
-                0x08004438       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x08004428       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetHSCfgDesc
-                0x08004480       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x08004470       0x48 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataOut
-                0x080044c8       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080044b8       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataIn
-                0x08004500       0x7c CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080044f0       0x7c CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_Setup
-                0x0800457c      0x11a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0800456c      0x11a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DeInit
-                0x08004696       0x64 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x08004686       0x64 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_Init
-                0x080046fa       0xee CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080046ea       0xee CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_RegisterInterface
-                0x080047e8       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x080047e8                USBD_CDC_RegisterInterface
+                0x080047d8       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080047d8                USBD_CDC_RegisterInterface
  .text.USBD_CDC_SetTxBuffer
-                0x080047fe       0x1c CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x080047fe                USBD_CDC_SetTxBuffer
+                0x080047ee       0x1c CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x080047ee                USBD_CDC_SetTxBuffer
  .text.USBD_CDC_SetRxBuffer
-                0x0800481a       0x18 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0800481a                USBD_CDC_SetRxBuffer
+                0x0800480a       0x18 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0800480a                USBD_CDC_SetRxBuffer
  .text.USBD_CDC_ReceivePacket
-                0x08004832       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x08004832                USBD_CDC_ReceivePacket
+                0x08004822       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x08004822                USBD_CDC_ReceivePacket
  .text.USBD_Init
-                0x0800486a       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0800486a                USBD_Init
+                0x0800485a       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0800485a                USBD_Init
  .text.USBD_RegisterClass
-                0x08004898       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004898                USBD_RegisterClass
+                0x08004888       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004888                USBD_RegisterClass
  .text.USBD_Start
-                0x080048d8        0x8 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080048d8                USBD_Start
+                0x080048c8        0x8 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080048c8                USBD_Start
  .text.USBD_SetClassConfig
-                0x080048e0       0x12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080048e0                USBD_SetClassConfig
+                0x080048d0       0x12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080048d0                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x080048f2       0x12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080048f2                USBD_ClrClassConfig
+                0x080048e2       0x12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080048e2                USBD_ClrClassConfig
  .text.USBD_LL_SetupStage
-                0x08004904       0x58 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004904                USBD_LL_SetupStage
+                0x080048f4       0x58 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080048f4                USBD_LL_SetupStage
  .text.USBD_LL_Reset
-                0x0800495c       0x64 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0800495c                USBD_LL_Reset
+                0x0800494c       0x64 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0800494c                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x080049c0        0x6 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080049c0                USBD_LL_SetSpeed
+                0x080049b0        0x6 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080049b0                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x080049c6       0x1e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080049c6                USBD_LL_Suspend
+                0x080049b6       0x1e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080049b6                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x080049e4       0x1a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080049e4                USBD_LL_Resume
+                0x080049d4       0x1a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080049d4                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x080049fe       0x22 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x080049fe                USBD_LL_SOF
+                0x080049ee       0x22 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x080049ee                USBD_LL_SOF
  .text.USBD_LL_IsoINIncomplete
-                0x08004a20       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004a20                USBD_LL_IsoINIncomplete
+                0x08004a10       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a10                USBD_LL_IsoINIncomplete
  .text.USBD_LL_IsoOUTIncomplete
-                0x08004a4e       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004a4e                USBD_LL_IsoOUTIncomplete
+                0x08004a3e       0x2e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a3e                USBD_LL_IsoOUTIncomplete
  .text.USBD_LL_DevConnected
-                0x08004a7c        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004a7c                USBD_LL_DevConnected
+                0x08004a6c        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a6c                USBD_LL_DevConnected
  .text.USBD_LL_DevDisconnected
-                0x08004a80       0x20 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004a80                USBD_LL_DevDisconnected
+                0x08004a70       0x20 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a70                USBD_LL_DevDisconnected
  .text.USBD_CoreFindIF
-                0x08004aa0        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004aa0                USBD_CoreFindIF
+                0x08004a90        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a90                USBD_CoreFindIF
  .text.USBD_CoreFindEP
-                0x08004aa4        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004aa4                USBD_CoreFindEP
+                0x08004a94        0x4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a94                USBD_CoreFindEP
  .text.USBD_LL_DataOutStage
-                0x08004aa8       0xc4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004aa8                USBD_LL_DataOutStage
+                0x08004a98       0xc4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004a98                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x08004b6c       0xd6 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004b6c                USBD_LL_DataInStage
+                0x08004b5c       0xd6 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004b5c                USBD_LL_DataInStage
  .text.USBD_GetNextDesc
-                0x08004c42        0xe CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004c42                USBD_GetNextDesc
+                0x08004c32        0xe CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004c32                USBD_GetNextDesc
  .text.USBD_GetEpDesc
-                0x08004c50       0x3e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x08004c50                USBD_GetEpDesc
+                0x08004c40       0x3e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x08004c40                USBD_GetEpDesc
  .text.USBD_GetLen
-                0x08004c8e       0x14 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004c7e       0x14 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ParseSetupRequest
-                0x08004ca2       0x28 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x08004ca2                USBD_ParseSetupRequest
+                0x08004c92       0x28 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004c92                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x08004cca       0x14 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x08004cca                USBD_CtlError
+                0x08004cba       0x14 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004cba                USBD_CtlError
  .text.USBD_GetDescriptor
-                0x08004cde      0x1ac CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004cce      0x1ac CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetAddress
-                0x08004e8a       0x50 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- *fill*         0x08004eda        0x2 
+                0x08004e7a       0x50 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ *fill*         0x08004eca        0x2 
  .text.USBD_SetConfig
-                0x08004edc       0xcc CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004ecc       0xcc CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetConfig
-                0x08004fa8       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004f98       0x40 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetStatus
-                0x08004fe8       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08004fd8       0x38 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetFeature
-                0x08005020       0x2a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08005010       0x2a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ClrFeature
-                0x0800504a       0x26 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0800503a       0x26 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_StdDevReq
-                0x08005070       0x76 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x08005070                USBD_StdDevReq
+                0x08005060       0x76 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x08005060                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x080050e6       0x84 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x080050e6                USBD_StdItfReq
+                0x080050d6       0x84 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x080050d6                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x0800516a      0x232 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0800516a                USBD_StdEPReq
+                0x0800515a      0x232 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0800515a                USBD_StdEPReq
  .text.USBD_GetString
-                0x0800539c       0x46 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0800539c                USBD_GetString
+                0x0800538c       0x46 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0800538c                USBD_GetString
  .text.USBD_CtlSendData
-                0x080053e2       0x1a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x080053e2                USBD_CtlSendData
+                0x080053d2       0x1a CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x080053d2                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x080053fc       0x10 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x080053fc                USBD_CtlContinueSendData
+                0x080053ec       0x10 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x080053ec                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x0800540c       0x1e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0800540c                USBD_CtlPrepareRx
+                0x080053fc       0x1e CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x080053fc                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x0800542a       0x10 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0800542a                USBD_CtlContinueRx
+                0x0800541a       0x10 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0800541a                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x0800543a       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0800543a                USBD_CtlSendStatus
+                0x0800542a       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0800542a                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x08005450       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x08005450                USBD_CtlReceiveStatus
- *fill*         0x08005466        0x2 
+                0x08005440       0x16 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x08005440                USBD_CtlReceiveStatus
+ *fill*         0x08005456        0x2 
  .text.MX_USB_DEVICE_Init
-                0x08005468       0x58 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
-                0x08005468                MX_USB_DEVICE_Init
+                0x08005458       0x58 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+                0x08005458                MX_USB_DEVICE_Init
  .text.CDC_DeInit_HS
-                0x080054c0        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x080054b0        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Control_HS
-                0x080054c4        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x080054b4        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_TransmitCplt_HS
-                0x080054c8        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x080054b8        0x4 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Receive_HS
-                0x080054cc       0x1c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x080054bc       0x1c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Init_HS
-                0x080054e8       0x28 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x080054d8       0x28 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.USBD_HS_DeviceDescriptor
-                0x08005510        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08005510                USBD_HS_DeviceDescriptor
+                0x08005500        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005500                USBD_HS_DeviceDescriptor
  .text.USBD_HS_LangIDStrDescriptor
-                0x0800551c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0800551c                USBD_HS_LangIDStrDescriptor
+                0x0800550c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0800550c                USBD_HS_LangIDStrDescriptor
  .text.IntToUnicode
-                0x08005528       0x46 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- *fill*         0x0800556e        0x2 
+                0x08005518       0x46 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ *fill*         0x0800555e        0x2 
  .text.Get_SerialNum
-                0x08005570       0x38 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005560       0x38 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.USBD_HS_SerialStrDescriptor
-                0x080055a8       0x14 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080055a8                USBD_HS_SerialStrDescriptor
+                0x08005598       0x14 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005598                USBD_HS_SerialStrDescriptor
  .text.USBD_HS_ProductStrDescriptor
-                0x080055bc       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080055bc                USBD_HS_ProductStrDescriptor
+                0x080055ac       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080055ac                USBD_HS_ProductStrDescriptor
  .text.USBD_HS_ManufacturerStrDescriptor
-                0x080055e0       0x1c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080055e0                USBD_HS_ManufacturerStrDescriptor
+                0x080055d0       0x1c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080055d0                USBD_HS_ManufacturerStrDescriptor
  .text.USBD_HS_ConfigStrDescriptor
-                0x080055fc       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x080055fc                USBD_HS_ConfigStrDescriptor
+                0x080055ec       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x080055ec                USBD_HS_ConfigStrDescriptor
  .text.USBD_HS_InterfaceStrDescriptor
-                0x08005620       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08005620                USBD_HS_InterfaceStrDescriptor
+                0x08005610       0x24 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005610                USBD_HS_InterfaceStrDescriptor
  .text.HAL_PCD_MspInit
-                0x08005644       0x74 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005644                HAL_PCD_MspInit
+                0x08005634       0x74 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005634                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x080056b8       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080056b8                HAL_PCD_SetupStageCallback
+                0x080056a8       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080056a8                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x080056c8       0x18 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080056c8                HAL_PCD_DataOutStageCallback
+                0x080056b8       0x18 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080056b8                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x080056e0       0x16 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080056e0                HAL_PCD_DataInStageCallback
+                0x080056d0       0x16 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080056d0                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x080056f6        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080056f6                HAL_PCD_SOFCallback
+                0x080056e6        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080056e6                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x08005702       0x28 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005702                HAL_PCD_ResetCallback
- *fill*         0x0800572a        0x2 
+                0x080056f2       0x28 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080056f2                HAL_PCD_ResetCallback
+ *fill*         0x0800571a        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x0800572c       0x30 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800572c                HAL_PCD_SuspendCallback
+                0x0800571c       0x30 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800571c                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x0800575c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800575c                HAL_PCD_ResumeCallback
+                0x0800574c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800574c                HAL_PCD_ResumeCallback
  .text.HAL_PCD_ISOOUTIncompleteCallback
-                0x08005768        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005768                HAL_PCD_ISOOUTIncompleteCallback
+                0x08005758        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005758                HAL_PCD_ISOOUTIncompleteCallback
  .text.HAL_PCD_ISOINIncompleteCallback
-                0x08005774        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005774                HAL_PCD_ISOINIncompleteCallback
+                0x08005764        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005764                HAL_PCD_ISOINIncompleteCallback
  .text.HAL_PCD_ConnectCallback
-                0x08005780        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005780                HAL_PCD_ConnectCallback
+                0x08005770        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005770                HAL_PCD_ConnectCallback
  .text.HAL_PCD_DisconnectCallback
-                0x0800578c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800578c                HAL_PCD_DisconnectCallback
+                0x0800577c        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800577c                HAL_PCD_DisconnectCallback
  .text.USBD_LL_Init
-                0x08005798       0x70 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005798                USBD_LL_Init
+                0x08005788       0x70 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005788                USBD_LL_Init
  .text.USBD_LL_IsStallEP
-                0x08005808       0x2c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005808                USBD_LL_IsStallEP
+                0x080057f8       0x2c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080057f8                USBD_LL_IsStallEP
  .text.USBD_LL_GetRxDataSize
-                0x08005834        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005834                USBD_LL_GetRxDataSize
+                0x08005824        0xc CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005824                USBD_LL_GetRxDataSize
  .text.USBD_static_malloc
-                0x08005840        0x8 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005840                USBD_static_malloc
+                0x08005830        0x8 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005830                USBD_static_malloc
  .text.USBD_static_free
-                0x08005848        0x2 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005848                USBD_static_free
+                0x08005838        0x2 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005838                USBD_static_free
  .text.USBD_Get_USB_Status
-                0x0800584a       0x14 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800584a                USBD_Get_USB_Status
+                0x0800583a       0x14 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800583a                USBD_Get_USB_Status
  .text.USBD_LL_Start
-                0x0800585e       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800585e                USBD_LL_Start
+                0x0800584e       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800584e                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x0800586e       0x16 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0800586e                USBD_LL_OpenEP
+                0x0800585e       0x16 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0800585e                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x08005884       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005884                USBD_LL_CloseEP
+                0x08005874       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005874                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x08005894       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x08005894                USBD_LL_StallEP
+                0x08005884       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005884                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x080058a4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080058a4                USBD_LL_ClearStallEP
+                0x08005894       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x08005894                USBD_LL_ClearStallEP
  .text.USBD_LL_SetUSBAddress
-                0x080058b4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080058b4                USBD_LL_SetUSBAddress
+                0x080058a4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080058a4                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x080058c4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080058c4                USBD_LL_Transmit
+                0x080058b4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080058b4                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x080058d4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x080058d4                USBD_LL_PrepareReceive
- .text.memset   0x080058e4       0xa4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
-                0x080058e4                memset
+                0x080058c4       0x10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x080058c4                USBD_LL_PrepareReceive
+ .text.memset   0x080058d4       0xa4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
+                0x080058d4                memset
  .text.__libc_init_array
-                0x08005988       0x50 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
-                0x08005988                __libc_init_array
+                0x08005978       0x50 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
+                0x08005978                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080059d8        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x080059d8                __retarget_lock_acquire_recursive
+                0x080059c8        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x080059c8                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080059dc        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x080059dc                __retarget_lock_release_recursive
+                0x080059cc        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x080059cc                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x080059e0       0x14 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x080059f4        0xc C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
-                0x080059f4                atexit
+                0x080059d0       0x14 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x080059e4        0xc C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
+                0x080059e4                atexit
  .text.__libc_fini_array
-                0x08005a00       0x28 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
-                0x08005a00                __libc_fini_array
+                0x080059f0       0x28 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
+                0x080059f0                __libc_fini_array
  .text.__register_exitproc
-                0x08005a28       0x80 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x08005a28                __register_exitproc
+                0x08005a18       0x80 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08005a18                __register_exitproc
  *(.glue_7)
- .glue_7        0x08005aa8        0x0 linker stubs
+ .glue_7        0x08005a98        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08005aa8        0x0 linker stubs
+ .glue_7t       0x08005a98        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08005aa8        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x08005a98        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08005aa8        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
-                0x08005aa8                _init
- .init          0x08005aac        0x8 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x08005a98        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x08005a98                _init
+ .init          0x08005a9c        0x8 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08005ab4        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
-                0x08005ab4                _fini
- .fini          0x08005ab8        0x8 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08005ac0                        . = ALIGN (0x4)
-                0x08005ac0                        _etext = .
+ .fini          0x08005aa4        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x08005aa4                _fini
+ .fini          0x08005aa8        0x8 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08005ab0                        . = ALIGN (0x4)
+                0x08005ab0                        _etext = .
 
-.vfp11_veneer   0x08005ac0        0x0
- .vfp11_veneer  0x08005ac0        0x0 linker stubs
+.vfp11_veneer   0x08005ab0        0x0
+ .vfp11_veneer  0x08005ab0        0x0 linker stubs
 
-.v4_bx          0x08005ac0        0x0
- .v4_bx         0x08005ac0        0x0 linker stubs
+.v4_bx          0x08005ab0        0x0
+ .v4_bx         0x08005ab0        0x0 linker stubs
 
-.iplt           0x08005ac0        0x0
- .iplt          0x08005ac0        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08005ab0        0x0
+ .iplt          0x08005ab0        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08005ac0       0x58
-                0x08005ac0                        . = ALIGN (0x4)
+.rodata         0x08005ab0       0x58
+                0x08005ab0                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.D1CorePrescTable
-                0x08005ac0       0x10 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
-                0x08005ac0                D1CorePrescTable
+                0x08005ab0       0x10 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x08005ab0                D1CorePrescTable
  .rodata.USBD_HS_ProductStrDescriptor.str1.4
-                0x08005ad0       0x46 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005ac0       0x46 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
                                  0x16 (size before relaxing)
  .rodata.USBD_HS_ManufacturerStrDescriptor.str1.4
-                0x08005b16       0x13 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005b06       0x13 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .rodata.USBD_HS_ConfigStrDescriptor.str1.4
-                0x08005b16        0xb CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005b06        0xb CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .rodata.USBD_HS_InterfaceStrDescriptor.str1.4
-                0x08005b16        0xe CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x08005b2c                        . = ALIGN (0x4)
- *fill*         0x08005b16        0x2 
+                0x08005b06        0xe CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x08005b1c                        . = ALIGN (0x4)
+ *fill*         0x08005b06        0x2 
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08005b18        0x0
-                0x08005b18                        __exidx_start = .
+.ARM            0x08005b08        0x0
+                0x08005b08                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08005b18                        __exidx_end = .
+                0x08005b08                        __exidx_end = .
 
-.preinit_array  0x08005b18        0x0
-                0x08005b18                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08005b08        0x0
+                0x08005b08                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005b18                        PROVIDE (__preinit_array_end = .)
+                0x08005b08                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08005b18        0x8
-                0x08005b18                        PROVIDE (__init_array_start = .)
+.init_array     0x08005b08        0x8
+                0x08005b08                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08005b18        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x08005b08        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08005b1c        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08005b20                        PROVIDE (__init_array_end = .)
+ .init_array    0x08005b0c        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005b10                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08005b20        0x4
-                0x08005b20                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08005b10        0x4
+                0x08005b10                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08005b20        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08005b24                        PROVIDE (__fini_array_end = .)
-                0x08005b24                        _sidata = LOADADDR (.data)
+ .fini_array    0x08005b10        0x4 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005b14                        PROVIDE (__fini_array_end = .)
+                0x08005b14                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08005b24        0x0
- .rel.iplt      0x08005b24        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08005b14        0x0
+ .rel.iplt      0x08005b14        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x24000000      0x104 load address 0x08005b24
+.data           0x24000000      0x104 load address 0x08005b14
                 0x24000000                        . = ALIGN (0x4)
                 0x24000000                        _sdata = .
  *(.data)
@@ -2603,17 +2603,17 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
                 0x24000104                        _edata = .
 
 .tm_clone_table
-                0x24000104        0x0 load address 0x08005c28
+                0x24000104        0x0 load address 0x08005c18
  .tm_clone_table
                 0x24000104        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x24000104        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x24000104        0x0 load address 0x08005c28
+.igot.plt       0x24000104        0x0 load address 0x08005c18
  .igot.plt      0x24000104        0x0 C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x24000104                        . = ALIGN (0x4)
 
-.bss            0x24000104     0x1e24 load address 0x08005c28
+.bss            0x24000104     0x1e24 load address 0x08005c18
                 0x24000104                        _sbss = .
                 0x24000104                        __bss_start__ = _sbss
  *(.bss)
@@ -2659,7 +2659,7 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
                 0x24001f28                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x24001f28      0x600 load address 0x08005c28
+                0x24001f28      0x600 load address 0x08005c18
                 0x24001f28                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x24001f28                        PROVIDE (_end = .)
@@ -2761,59 +2761,59 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
 LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libm.a
 LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x19556
+.debug_info     0x00000000    0x194f6
  .debug_info    0x00000000      0x70c CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000070c      0x84b CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000f57     0x1178 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x000020cf      0x460 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_info    0x0000252f      0x6ca CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_info    0x00002bf9      0x975 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_info    0x0000356e       0x30 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_info    0x0000359e     0x1796 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_info    0x00004d34     0x130e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_info    0x00006042      0xca7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_info    0x00006ce9     0x1c4f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_info    0x00008938      0xa1a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_info    0x00009352      0xf2c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_info    0x0000a27e     0x11df CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_info    0x0000b45d     0x1ef2 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_info    0x0000d34f     0x1a6b CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_info    0x0000edba     0x1f0d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_info    0x00010cc7     0x180d CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_info    0x000124d4     0x1267 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_info    0x0001373b     0x143f CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_info    0x00014b7a      0x904 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_info    0x0001547e      0x7b0 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_info    0x00015c2e      0x9cf CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_info    0x000165fd      0x652 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_info    0x00016c4f     0x2907 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_info    0x0000070c      0x7eb CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000ef7     0x1178 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x0000206f      0x460 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_info    0x000024cf      0x6ca CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_info    0x00002b99      0x975 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_info    0x0000350e       0x30 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_info    0x0000353e     0x1796 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_info    0x00004cd4     0x130e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_info    0x00005fe2      0xca7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_info    0x00006c89     0x1c4f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_info    0x000088d8      0xa1a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_info    0x000092f2      0xf2c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_info    0x0000a21e     0x11df CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_info    0x0000b3fd     0x1ef2 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_info    0x0000d2ef     0x1a6b CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_info    0x0000ed5a     0x1f0d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_info    0x00010c67     0x180d CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_info    0x00012474     0x1267 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_info    0x000136db     0x143f CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_info    0x00014b1a      0x904 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_info    0x0001541e      0x7b0 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_info    0x00015bce      0x9cf CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_info    0x0001659d      0x652 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_info    0x00016bef     0x2907 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_abbrev   0x00000000     0x3b57
+.debug_abbrev   0x00000000     0x3b5b
  .debug_abbrev  0x00000000      0x19c CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000019c      0x24d CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x000003e9      0x23f CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_abbrev  0x00000628       0xd9 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_abbrev  0x00000701      0x1ad CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_abbrev  0x000008ae      0x170 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_abbrev  0x00000a1e       0x24 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_abbrev  0x00000a42      0x2c3 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_abbrev  0x00000d05      0x3ad CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_abbrev  0x000010b2      0x255 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_abbrev  0x00001307      0x2fa CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_abbrev  0x00001601      0x2ad CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_abbrev  0x000018ae      0x2b5 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00001b63      0x2a3 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_abbrev  0x00001e06      0x291 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00002097      0x29f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_abbrev  0x00002336      0x329 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_abbrev  0x0000265f      0x33d CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_abbrev  0x0000299c      0x2f8 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_abbrev  0x00002c94      0x343 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_abbrev  0x00002fd7      0x1b0 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_abbrev  0x00003187      0x1c3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_abbrev  0x0000334a      0x2ca CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_abbrev  0x00003614      0x211 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_abbrev  0x00003825      0x332 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_abbrev  0x0000019c      0x251 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x000003ed      0x23f CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_abbrev  0x0000062c       0xd9 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_abbrev  0x00000705      0x1ad CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_abbrev  0x000008b2      0x170 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_abbrev  0x00000a22       0x24 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_abbrev  0x00000a46      0x2c3 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_abbrev  0x00000d09      0x3ad CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_abbrev  0x000010b6      0x255 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000130b      0x2fa CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_abbrev  0x00001605      0x2ad CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_abbrev  0x000018b2      0x2b5 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00001b67      0x2a3 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001e0a      0x291 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000209b      0x29f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_abbrev  0x0000233a      0x329 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_abbrev  0x00002663      0x33d CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_abbrev  0x000029a0      0x2f8 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_abbrev  0x00002c98      0x343 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_abbrev  0x00002fdb      0x1b0 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_abbrev  0x0000318b      0x1c3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_abbrev  0x0000334e      0x2ca CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_abbrev  0x00003618      0x211 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_abbrev  0x00003829      0x332 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
 .debug_aranges  0x00000000     0x1050
  .debug_aranges
@@ -2920,60 +2920,60 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
  .debug_rnglists
                 0x00000bb2       0xc7 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_line     0x00000000     0xfd7b
+.debug_line     0x00000000     0xfd74
  .debug_line    0x00000000      0x213 CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000213      0x4a7 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000006ba      0x3ef CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x00000aa9      0x156 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_line    0x00000bff      0x2ae CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_line    0x00000ead      0x42d CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_line    0x000012da       0x7b CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_line    0x00001355      0x9ab CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_line    0x00001d00      0x861 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_line    0x00002561      0x711 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_line    0x00002c72     0x1470 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_line    0x000040e2      0x4ce CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_line    0x000045b0      0xa6a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_line    0x0000501a     0x1308 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_line    0x00006322     0x1e51 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_line    0x00008173     0x2741 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_line    0x0000a8b4     0x1f18 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_line    0x0000c7cc      0xad3 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_line    0x0000d29f      0x9de CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_line    0x0000dc7d      0xd39 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_line    0x0000e9b6      0x2ac CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_line    0x0000ec62      0x2a3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_line    0x0000ef05      0x283 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_line    0x0000f188      0x35d CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_line    0x0000f4e5      0x896 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_line    0x00000213      0x4a0 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000006b3      0x3ef CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x00000aa2      0x156 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_line    0x00000bf8      0x2ae CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_line    0x00000ea6      0x42d CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_line    0x000012d3       0x7b CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_line    0x0000134e      0x9ab CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_line    0x00001cf9      0x861 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_line    0x0000255a      0x711 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_line    0x00002c6b     0x1470 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_line    0x000040db      0x4ce CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_line    0x000045a9      0xa6a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_line    0x00005013     0x1308 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_line    0x0000631b     0x1e51 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000816c     0x2741 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_line    0x0000a8ad     0x1f18 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_line    0x0000c7c5      0xad3 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_line    0x0000d298      0x9de CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_line    0x0000dc76      0xd39 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_line    0x0000e9af      0x2ac CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_line    0x0000ec5b      0x2a3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_line    0x0000eefe      0x283 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_line    0x0000f181      0x35d CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_line    0x0000f4de      0x896 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_str      0x00000000     0x5faf
- .debug_str     0x00000000     0x5faf CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
+.debug_str      0x00000000     0x5fbf
+ .debug_str     0x00000000     0x5fbf CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
                                 0x4e3 (size before relaxing)
- .debug_str     0x00005faf      0x62a CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_str     0x00005faf      0xe5f CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_str     0x00005faf      0x406 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_str     0x00005faf      0x6d1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_str     0x00005faf      0x61f CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_str     0x00005faf       0x83 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_str     0x00005faf     0x15b0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_str     0x00005faf     0x1055 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_str     0x00005faf      0x6ea CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_str     0x00005faf      0xe60 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_str     0x00005faf      0x84c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_str     0x00005faf      0x9c8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_str     0x00005faf      0xa11 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_str     0x00005faf      0xf53 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_str     0x00005faf      0xde8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_str     0x00005faf      0xda8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_str     0x00005faf      0xe12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_str     0x00005faf      0xa07 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_str     0x00005faf      0x832 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_str     0x00005faf      0x707 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_str     0x00005faf      0x718 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_str     0x00005faf      0x7c3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_str     0x00005faf      0x4b8 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_str     0x00005faf     0x1e2a CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_str     0x00005fbf      0x5f1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_str     0x00005fbf      0xe5f CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_str     0x00005fbf      0x406 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_str     0x00005fbf      0x6d1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_str     0x00005fbf      0x61f CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_str     0x00005fbf       0x83 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_str     0x00005fbf     0x15b0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_str     0x00005fbf     0x1055 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_str     0x00005fbf      0x6ea CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_str     0x00005fbf      0xe60 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_str     0x00005fbf      0x84c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_str     0x00005fbf      0x9c8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_str     0x00005fbf      0xa11 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_str     0x00005fbf      0xf53 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_str     0x00005fbf      0xde8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_str     0x00005fbf      0xda8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_str     0x00005fbf      0xe12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_str     0x00005fbf      0xa07 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_str     0x00005fbf      0x832 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_str     0x00005fbf      0x707 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_str     0x00005fbf      0x718 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_str     0x00005fbf      0x7c3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_str     0x00005fbf      0x4b8 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_str     0x00005fbf     0x1e2a CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj

@@ -53,9 +53,8 @@ CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj: \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pcd.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_usb.h \
  C:\Git\LHR\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pcd_ex.h \
- C:\Git\LHR\FlashRainbow\Core\Inc/memorymap.h \
- C:\Git\LHR\FlashRainbow\Core\Inc/main.h \
  C:\Git\LHR\FlashRainbow\Core\Inc/spi.h \
+ C:\Git\LHR\FlashRainbow\Core\Inc/main.h \
  C:\Git\LHR\FlashRainbow\USB_DEVICE\App/usb_device.h \
  C:\Git\LHR\FlashRainbow\Middlewares\ST\STM32_USB_Device_Library\Core\Inc/usbd_def.h \
  C:\Git\LHR\FlashRainbow\USB_DEVICE\Target/usbd_conf.h \

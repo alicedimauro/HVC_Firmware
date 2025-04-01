@@ -144,7 +144,6 @@ CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
  C:/Users/alice/13.3 rel1/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h
  C:/Git/LHR/FlashRainbow/Core/Inc/gpio.h
  C:/Git/LHR/FlashRainbow/Core/Inc/main.h
- C:/Git/LHR/FlashRainbow/Core/Inc/memorymap.h
  C:/Git/LHR/FlashRainbow/Core/Inc/spi.h
  C:/Git/LHR/FlashRainbow/Core/Inc/stm32h7xx_hal_conf.h
  C:/Git/LHR/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h

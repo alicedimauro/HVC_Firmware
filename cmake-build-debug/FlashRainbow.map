@@ -95,8 +95,8 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
  .debug_rnglists
                 0x00000000       0x32 CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
- .debug_line    0x00000000      0x2d2 CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
- .debug_str     0x00000000      0x8d4 CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
+ .debug_line    0x00000000      0x2ab CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
+ .debug_str     0x00000000      0x8ba CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
  .debug_frame   0x00000000       0x4c CMakeFiles/FlashRainbow.elf.dir/Core/Src/adbms.c.obj
  .ARM.attributes
@@ -114,8 +114,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x26 CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
- .debug_line    0x00000000       0x4d CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
- .debug_str     0x00000000      0x1b4 CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
+ .debug_line    0x00000000       0x40 CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
+ .debug_str     0x00000000      0x19a CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/FlashRainbow.elf.dir/Core/Src/memorymap.c.obj
@@ -162,8 +162,8 @@ Discarded input sections
                 0x00000000       0xa8 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
                 0x00000000       0x79 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x3c6 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x40b CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x3b9 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x3f1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x190 CMakeFiles/FlashRainbow.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -182,8 +182,8 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00000000      0x199 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00000000      0x237 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00000000      0x18c CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00000000      0x21d CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/FlashRainbow.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
@@ -381,8 +381,8 @@ Discarded input sections
                 0x00000000       0xa0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .debug_rnglists
                 0x00000000       0x8b CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
- .debug_line    0x00000000     0x2411 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
- .debug_str     0x00000000      0x96d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+ .debug_line    0x00000000     0x23ea CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x953 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x1fc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .ARM.attributes
@@ -416,8 +416,8 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .debug_rnglists
                 0x00000000       0x47 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0xbb0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x80a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0xb89 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x7f0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000      0x104 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -451,8 +451,8 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
  .debug_rnglists
                 0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
- .debug_line    0x00000000      0x8ce CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
- .debug_str     0x00000000      0x530 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x8a7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x516 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
  .debug_frame   0x00000000      0x100 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
  .ARM.attributes
@@ -497,8 +497,8 @@ Discarded input sections
                 0x00000000       0x88 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .debug_rnglists
                 0x00000000       0x65 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
- .debug_line    0x00000000      0x8bc CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
- .debug_str     0x00000000      0x692 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x888 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x678 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x148 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .ARM.attributes
@@ -574,8 +574,8 @@ Discarded input sections
                 0x00000000      0x108 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .debug_rnglists
                 0x00000000       0xc7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0xc2e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x9a9 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0xc07 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x98f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x254 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -626,8 +626,8 @@ Discarded input sections
                 0x00000000       0x70 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
  .debug_rnglists
                 0x00000000       0x4f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
- .debug_line    0x00000000      0x33e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
- .debug_str     0x00000000      0x382 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
+ .debug_line    0x00000000      0x317 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
+ .debug_str     0x00000000      0x368 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
  .debug_frame   0x00000000       0xc8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
  .ARM.attributes
@@ -805,8 +805,8 @@ Discarded input sections
                 0x00000000      0x2a0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .debug_rnglists
                 0x00000000      0x21f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
- .debug_line    0x00000000     0x50da CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
- .debug_str     0x00000000     0x119a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
+ .debug_line    0x00000000     0x50b3 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
+ .debug_str     0x00000000     0x1180 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .debug_frame   0x00000000      0x98c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .ARM.attributes
@@ -834,8 +834,8 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .debug_rnglists
                 0x00000000       0x31 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
- .debug_line    0x00000000      0x3eb CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
- .debug_str     0x00000000      0xb41 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
+ .debug_line    0x00000000      0x3c4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
+ .debug_str     0x00000000      0xb27 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .debug_frame   0x00000000       0x80 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .ARM.attributes
@@ -893,8 +893,8 @@ Discarded input sections
                 0x00000000       0xc0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .debug_rnglists
                 0x00000000       0x93 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
- .debug_line    0x00000000     0x1484 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
- .debug_str     0x00000000      0xa41 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
+ .debug_line    0x00000000     0x145d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
+ .debug_str     0x00000000      0xa27 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .debug_frame   0x00000000      0x260 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .ARM.attributes
@@ -1004,8 +1004,8 @@ Discarded input sections
                 0x00000000       0xa0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .debug_rnglists
                 0x00000000       0x74 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x45d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x629 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x429 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x60f CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x128 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .ARM.attributes
@@ -1277,8 +1277,8 @@ Discarded input sections
                 0x00000000       0x30 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
  .debug_rnglists
                 0x00000000       0x20 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
- .debug_line    0x00000000      0x37c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
- .debug_str     0x00000000      0x8ca CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
+ .debug_line    0x00000000      0x355 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
+ .debug_str     0x00000000      0x8b0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
  .debug_frame   0x00000000       0x64 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
  .ARM.attributes
@@ -2920,60 +2920,60 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
  .debug_rnglists
                 0x00000bb2       0xc7 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_line     0x00000000     0xfd74
- .debug_line    0x00000000      0x213 CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000213      0x4a0 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000006b3      0x3ef CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x00000aa2      0x156 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_line    0x00000bf8      0x2ae CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_line    0x00000ea6      0x42d CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_line    0x000012d3       0x7b CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_line    0x0000134e      0x9ab CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_line    0x00001cf9      0x861 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_line    0x0000255a      0x711 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_line    0x00002c6b     0x1470 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_line    0x000040db      0x4ce CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_line    0x000045a9      0xa6a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_line    0x00005013     0x1308 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_line    0x0000631b     0x1e51 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_line    0x0000816c     0x2741 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_line    0x0000a8ad     0x1f18 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_line    0x0000c7c5      0xad3 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_line    0x0000d298      0x9de CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_line    0x0000dc76      0xd39 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_line    0x0000e9af      0x2ac CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_line    0x0000ec5b      0x2a3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_line    0x0000eefe      0x283 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_line    0x0000f181      0x35d CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_line    0x0000f4de      0x896 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.debug_line     0x00000000     0xf957
+ .debug_line    0x00000000      0x1ec CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x000001ec      0x452 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x0000063e      0x3bb CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x000009f9      0x13c CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_line    0x00000b35      0x287 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_line    0x00000dbc      0x413 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_line    0x000011cf       0x7b CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_line    0x0000124a      0x977 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_line    0x00001bc1      0x82d CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_line    0x000023ee      0x6ea CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_line    0x00002ad8     0x1449 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_line    0x00003f21      0x4a7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_line    0x000043c8      0xa36 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_line    0x00004dfe     0x12e1 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_line    0x000060df     0x1e2a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_line    0x00007f09     0x271a CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_line    0x0000a623     0x1ee4 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_line    0x0000c507      0xa85 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_line    0x0000cf8c      0x9c4 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_line    0x0000d950      0xd1f CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_line    0x0000e66f      0x292 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_line    0x0000e901      0x262 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_line    0x0000eb63      0x25c CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_line    0x0000edbf      0x343 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_line    0x0000f102      0x855 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_str      0x00000000     0x5fbf
- .debug_str     0x00000000     0x5fbf CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
-                                0x4e3 (size before relaxing)
- .debug_str     0x00005fbf      0x5f1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
- .debug_str     0x00005fbf      0xe5f CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
- .debug_str     0x00005fbf      0x406 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_str     0x00005fbf      0x6d1 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_str     0x00005fbf      0x61f CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_str     0x00005fbf       0x83 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
- .debug_str     0x00005fbf     0x15b0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_str     0x00005fbf     0x1055 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_str     0x00005fbf      0x6ea CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_str     0x00005fbf      0xe60 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
- .debug_str     0x00005fbf      0x84c CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
- .debug_str     0x00005fbf      0x9c8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_str     0x00005fbf      0xa11 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_str     0x00005fbf      0xf53 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_str     0x00005fbf      0xde8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_str     0x00005fbf      0xda8 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
- .debug_str     0x00005fbf      0xe12 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_str     0x00005fbf      0xa07 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_str     0x00005fbf      0x832 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_str     0x00005fbf      0x707 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_str     0x00005fbf      0x718 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_str     0x00005fbf      0x7c3 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_str     0x00005fbf      0x4b8 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_str     0x00005fbf     0x1e2a CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.debug_str      0x00000000     0x5e6d
+ .debug_str     0x00000000     0x5e6d CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
+                                0x4c9 (size before relaxing)
+ .debug_str     0x00005e6d      0x5d7 CMakeFiles/FlashRainbow.elf.dir/Core/Src/main.c.obj
+ .debug_str     0x00005e6d      0xe45 CMakeFiles/FlashRainbow.elf.dir/Core/Src/spi.c.obj
+ .debug_str     0x00005e6d      0x3ec CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_str     0x00005e6d      0x6b7 CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_str     0x00005e6d      0x605 CMakeFiles/FlashRainbow.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_str     0x00005e6d       0x69 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+ .debug_str     0x00005e6d     0x1596 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_str     0x00005e6d     0x103b CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_str     0x00005e6d      0x6d0 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_str     0x00005e6d      0xe46 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+ .debug_str     0x00005e6d      0x832 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+ .debug_str     0x00005e6d      0x9ae CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_str     0x00005e6d      0x9f7 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_str     0x00005e6d      0xf39 CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_str     0x00005e6d      0xdce CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_str     0x00005e6d      0xd8e CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
+ .debug_str     0x00005e6d      0xdf8 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_str     0x00005e6d      0x9ed CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_str     0x00005e6d      0x818 CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_str     0x00005e6d      0x6ed CMakeFiles/FlashRainbow.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_str     0x00005e6d      0x6fe CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_str     0x00005e6d      0x7a9 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_str     0x00005e6d      0x49e CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_str     0x00005e6d     0x1e10 CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/FlashRainbow.elf.dir/Core/Src/gpio.c.obj
@@ -3080,13 +3080,13 @@ LOAD C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m
                 0x00008c6d      0x89e CMakeFiles/FlashRainbow.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
 .debug_line_str
-                0x00000000      0x132
+                0x00000000      0x118
  .debug_line_str
-                0x00000000      0x132 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
-                                 0x67 (size before relaxing)
+                0x00000000      0x118 CMakeFiles/FlashRainbow.elf.dir/Core/Startup/startup_stm32h723vgtx.s.obj
+                                 0x4d (size before relaxing)
  .debug_line_str
-                0x00000132       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x00000118       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .debug_line_str
-                0x00000132       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x00000118       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .debug_line_str
-                0x00000132       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+                0x00000118       0xcb C:/Users/alice/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)

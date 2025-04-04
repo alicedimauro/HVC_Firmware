@@ -136,7 +136,7 @@ int main(void)
   uint8_t tx_data[4] = {CMD_READ_REG, 0x00, 0x00, 0x41}; // Example command + PEC
   uint8_t rx_data[6] = {0}; // Buffer for received data
 
-  while (1)5
+  while (1)
   {
     /* USER CODE END WHILE */
 

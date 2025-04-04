@@ -1,3 +1,0 @@
-C:/Git/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/FlashRainbow.elf.dir
-C:/Git/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Git/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/rebuild_cache.dir

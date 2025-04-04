@@ -1,5 +1,1 @@
-"C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Git\LHR\FlashRainbow -B C:\Git\LHR\FlashRainbow\cmake-build-debug
--- Minimal optimization, debug info included
--- Configuring done (0.0s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Git/LHR/FlashRainbow/cmake-build-debug
+CMakeLists.txt not found in C:\Git\LHR\FlashRainbow Select CMakeLists.txt

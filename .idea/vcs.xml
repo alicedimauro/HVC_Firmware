@@ -3,8 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/RainbowLED" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/RainbowLED/Libs/longhorn-lib" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/RainbowLED/Libs/longhorn-lib-2025" vcs="Git" />
   </component>
 </project>

@@ -1,3 +1,0 @@
-C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/FlashRainbow.elf.dir
-C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sebza/Downloads/hvctest/LHR/FlashRainbow/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-C:/Git/LHR/RainbowLED/cmake-build-debug/CMakeFiles/rainbowLED.elf.dir
-C:/Git/LHR/RainbowLED/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Git/LHR/RainbowLED/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,6 @@
 [submodule "RainbowLED/--force"]
 	path = RainbowLED/--force
 	url = https://github.com/LonghornRacingElectric/longhorn-lib-2025.git
+[submodule "Libs/longhorn-lib-2025"]
+	path = Libs/longhorn-lib-2025
+	url = https://github.com/LonghornRacingElectric/longhorn-lib-2025.git

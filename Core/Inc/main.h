@@ -31,7 +31,9 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#ifndef USB_VCP
+#define USB_VCP
+#endif
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

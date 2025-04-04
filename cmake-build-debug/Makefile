@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Git\LHR
+CMAKE_SOURCE_DIR = C:\Users\sebza\Downloads\FlashRainbow
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Git\LHR\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sebza\Downloads\FlashRainbow\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Git\LHR\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Users\alice\Downloads\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\LHR\cmake-build-debug\CMakeFiles C:\Git\LHR\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebza\Downloads\FlashRainbow\cmake-build-debug\CMakeFiles C:\Users\sebza\Downloads\FlashRainbow\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\LHR\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebza\Downloads\FlashRainbow\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -880,6 +880,126 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
 
+Libs/longhorn-lib-2025/dfu.obj: Libs/longhorn-lib-2025/dfu.c.obj
+.PHONY : Libs/longhorn-lib-2025/dfu.obj
+
+# target to build an object file
+Libs/longhorn-lib-2025/dfu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/dfu.c.obj
+.PHONY : Libs/longhorn-lib-2025/dfu.c.obj
+
+Libs/longhorn-lib-2025/dfu.i: Libs/longhorn-lib-2025/dfu.c.i
+.PHONY : Libs/longhorn-lib-2025/dfu.i
+
+# target to preprocess a source file
+Libs/longhorn-lib-2025/dfu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/dfu.c.i
+.PHONY : Libs/longhorn-lib-2025/dfu.c.i
+
+Libs/longhorn-lib-2025/dfu.s: Libs/longhorn-lib-2025/dfu.c.s
+.PHONY : Libs/longhorn-lib-2025/dfu.s
+
+# target to generate assembly for a file
+Libs/longhorn-lib-2025/dfu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/dfu.c.s
+.PHONY : Libs/longhorn-lib-2025/dfu.c.s
+
+Libs/longhorn-lib-2025/led.obj: Libs/longhorn-lib-2025/led.c.obj
+.PHONY : Libs/longhorn-lib-2025/led.obj
+
+# target to build an object file
+Libs/longhorn-lib-2025/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/led.c.obj
+.PHONY : Libs/longhorn-lib-2025/led.c.obj
+
+Libs/longhorn-lib-2025/led.i: Libs/longhorn-lib-2025/led.c.i
+.PHONY : Libs/longhorn-lib-2025/led.i
+
+# target to preprocess a source file
+Libs/longhorn-lib-2025/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/led.c.i
+.PHONY : Libs/longhorn-lib-2025/led.c.i
+
+Libs/longhorn-lib-2025/led.s: Libs/longhorn-lib-2025/led.c.s
+.PHONY : Libs/longhorn-lib-2025/led.s
+
+# target to generate assembly for a file
+Libs/longhorn-lib-2025/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/led.c.s
+.PHONY : Libs/longhorn-lib-2025/led.c.s
+
+Libs/longhorn-lib-2025/night_can.obj: Libs/longhorn-lib-2025/night_can.c.obj
+.PHONY : Libs/longhorn-lib-2025/night_can.obj
+
+# target to build an object file
+Libs/longhorn-lib-2025/night_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/night_can.c.obj
+.PHONY : Libs/longhorn-lib-2025/night_can.c.obj
+
+Libs/longhorn-lib-2025/night_can.i: Libs/longhorn-lib-2025/night_can.c.i
+.PHONY : Libs/longhorn-lib-2025/night_can.i
+
+# target to preprocess a source file
+Libs/longhorn-lib-2025/night_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/night_can.c.i
+.PHONY : Libs/longhorn-lib-2025/night_can.c.i
+
+Libs/longhorn-lib-2025/night_can.s: Libs/longhorn-lib-2025/night_can.c.s
+.PHONY : Libs/longhorn-lib-2025/night_can.s
+
+# target to generate assembly for a file
+Libs/longhorn-lib-2025/night_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/night_can.c.s
+.PHONY : Libs/longhorn-lib-2025/night_can.c.s
+
+Libs/longhorn-lib-2025/timer.obj: Libs/longhorn-lib-2025/timer.c.obj
+.PHONY : Libs/longhorn-lib-2025/timer.obj
+
+# target to build an object file
+Libs/longhorn-lib-2025/timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/timer.c.obj
+.PHONY : Libs/longhorn-lib-2025/timer.c.obj
+
+Libs/longhorn-lib-2025/timer.i: Libs/longhorn-lib-2025/timer.c.i
+.PHONY : Libs/longhorn-lib-2025/timer.i
+
+# target to preprocess a source file
+Libs/longhorn-lib-2025/timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/timer.c.i
+.PHONY : Libs/longhorn-lib-2025/timer.c.i
+
+Libs/longhorn-lib-2025/timer.s: Libs/longhorn-lib-2025/timer.c.s
+.PHONY : Libs/longhorn-lib-2025/timer.s
+
+# target to generate assembly for a file
+Libs/longhorn-lib-2025/timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/timer.c.s
+.PHONY : Libs/longhorn-lib-2025/timer.c.s
+
+Libs/longhorn-lib-2025/usb_vcp.obj: Libs/longhorn-lib-2025/usb_vcp.c.obj
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.obj
+
+# target to build an object file
+Libs/longhorn-lib-2025/usb_vcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/usb_vcp.c.obj
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.c.obj
+
+Libs/longhorn-lib-2025/usb_vcp.i: Libs/longhorn-lib-2025/usb_vcp.c.i
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.i
+
+# target to preprocess a source file
+Libs/longhorn-lib-2025/usb_vcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/usb_vcp.c.i
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.c.i
+
+Libs/longhorn-lib-2025/usb_vcp.s: Libs/longhorn-lib-2025/usb_vcp.c.s
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.s
+
+# target to generate assembly for a file
+Libs/longhorn-lib-2025/usb_vcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlashRainbow.elf.dir\build.make CMakeFiles/FlashRainbow.elf.dir/Libs/longhorn-lib-2025/usb_vcp.c.s
+.PHONY : Libs/longhorn-lib-2025/usb_vcp.c.s
+
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
 
@@ -1175,6 +1295,21 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s
+	@echo ... Libs/longhorn-lib-2025/dfu.obj
+	@echo ... Libs/longhorn-lib-2025/dfu.i
+	@echo ... Libs/longhorn-lib-2025/dfu.s
+	@echo ... Libs/longhorn-lib-2025/led.obj
+	@echo ... Libs/longhorn-lib-2025/led.i
+	@echo ... Libs/longhorn-lib-2025/led.s
+	@echo ... Libs/longhorn-lib-2025/night_can.obj
+	@echo ... Libs/longhorn-lib-2025/night_can.i
+	@echo ... Libs/longhorn-lib-2025/night_can.s
+	@echo ... Libs/longhorn-lib-2025/timer.obj
+	@echo ... Libs/longhorn-lib-2025/timer.i
+	@echo ... Libs/longhorn-lib-2025/timer.s
+	@echo ... Libs/longhorn-lib-2025/usb_vcp.obj
+	@echo ... Libs/longhorn-lib-2025/usb_vcp.i
+	@echo ... Libs/longhorn-lib-2025/usb_vcp.s
 	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
 	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
 	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s

@@ -155,39 +155,43 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/CMSIS/Include"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/USB_DEVICE/App"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/USB_DEVICE/App"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/USB_DEVICE/Target"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/USB_DEVICE/Target"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Libs/longhorn-lib-2025"
 				}
 			],
 			"language" : "C",
@@ -232,14 +236,19 @@
 				104,
 				105,
 				106,
-				108,
+				111,
 				113,
-				114,
 				115,
-				117,
-				119,
-				121,
-				123
+				118,
+				120,
+				123,
+				128,
+				129,
+				130,
+				132,
+				134,
+				136,
+				138
 			]
 		},
 		{
@@ -316,39 +325,43 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Drivers/CMSIS/Include"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/USB_DEVICE/App"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/USB_DEVICE/App"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/USB_DEVICE/Target"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/USB_DEVICE/Target"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Git/LHR/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/sebza/Downloads/FlashRainbow/Libs/longhorn-lib-2025"
 				}
 			],
 			"language" : "ASM",
@@ -373,7 +386,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Git/LHR/cmake-build-debug/FlashRainbow.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/sebza/Downloads/FlashRainbow/cmake-build-debug/FlashRainbow.map",
 				"role" : "flags"
 			},
 			{
@@ -398,7 +411,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Git/LHR/STM32H723VGTX_FLASH.ld",
+				"fragment" : "C:/Users/sebza/Downloads/FlashRainbow/STM32H723VGTX_FLASH.ld",
 				"role" : "flags"
 			}
 		],
@@ -489,15 +502,20 @@
 				82,
 				83,
 				84,
-				107,
-				109,
-				110,
-				111,
 				112,
-				118,
-				120,
+				114,
+				116,
+				119,
+				121,
 				122,
-				124
+				124,
+				125,
+				126,
+				127,
+				133,
+				135,
+				137,
+				139
 			]
 		},
 		{
@@ -535,14 +553,19 @@
 				104,
 				105,
 				106,
-				108,
+				111,
 				113,
-				114,
 				115,
-				117,
-				119,
-				121,
-				123
+				118,
+				120,
+				123,
+				128,
+				129,
+				130,
+				132,
+				134,
+				136,
+				138
 			]
 		},
 		{
@@ -553,8 +576,13 @@
 				22,
 				47,
 				85,
-				116,
-				125
+				107,
+				108,
+				109,
+				110,
+				117,
+				131,
+				140
 			]
 		}
 	],
@@ -1126,6 +1154,86 @@
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/.git",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/.gitignore",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/CMakeLists.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/README.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libs/longhorn-lib-2025/dfu.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/dfu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libs/longhorn-lib-2025/led.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/led.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libs/longhorn-lib-2025/night_can.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/night_can.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/scripts/dfu.py",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libs/longhorn-lib-2025/timer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/timer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libs/longhorn-lib-2025/usb_vcp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Libs/longhorn-lib-2025/usb_vcp.h",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,

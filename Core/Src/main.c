@@ -18,20 +18,16 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "memorymap.h"
 #include "spi.h"
 #include "usb_device.h"
 #include "gpio.h"
 
-#define CS_GPIO_Port GPIOD
-#define CS_Pin GPIO_PIN_9
-#define CMD_READ_REG 0x0A  // Command opcode for reading a register
-
-
-
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usb_vcp.h"
+#include "led.h"
+#include "timer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -124,7 +120,7 @@ int main(void)
   MX_SPI3_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+  usb_printf("String %d", 15/*value*/); // works just like printf, use like printf
   /* USER CODE END 2 */
 
   /* Infinite loop */

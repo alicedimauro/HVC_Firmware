@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usb_vcp.h"
+#include "dfu.h"
 #include "led.h"
 #include "timer.h"
 /* USER CODE END Includes */
@@ -112,7 +113,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  dfu_init(GPIOA, GPIO_PIN_15); // replace GPIOA and PIN_15 with the correct GPIOX/pin for BOOT0trig
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -120,7 +121,7 @@ int main(void)
   MX_SPI3_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  usb_printf("String %d", 15/*value*/); // works just like printf, use like printf
+  usb_printf("String %d", 15/*value*/); // works just like printf, use like printf, vcp code
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -137,7 +138,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+    receive_periodic(); //dfu code
     // DEFAULT: Toggle LED rainbow
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
     HAL_Delay(100); // 1 second delay

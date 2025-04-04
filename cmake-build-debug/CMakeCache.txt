@@ -229,6 +229,12 @@ FlashRainbow_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FlashRainbow_SOURCE_DIR:STATIC=C:/Users/sebza/Downloads/FlashRainbow
 
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=C:/Users/sebza/Downloads/FlashRainbow/venv/Scripts/python.exe
+
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=C:/Users/sebza/Downloads/FlashRainbow/venv/Scripts/python.exe
+
 
 ########################
 # INTERNAL cache entries

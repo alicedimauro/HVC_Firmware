@@ -14,8 +14,8 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (5.1s)
--- Generating done (0.1s)
+-- Configuring done (3.6s)
+-- Generating done (0.0s)
 CMake Warning:
   Manually-specified variables were not used by the project:
 

@@ -50,6 +50,8 @@ CMakeFiles/FlashRainbow.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pwr_ex.h \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi.h \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_spi_ex.h \
+ C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim.h \
+ C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pcd.h \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_usb.h \
  C:\Users\sebza\Downloads\FlashRainbow\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_pcd_ex.h

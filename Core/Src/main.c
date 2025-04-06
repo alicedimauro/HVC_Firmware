@@ -20,6 +20,7 @@
 #include "main.h"
 #include "memorymap.h"
 #include "spi.h"
+#include "tim.h"
 #include "usb_device.h"
 #include "gpio.h"
 
@@ -29,6 +30,7 @@
 #include "dfu.h"
 #include "led.h"
 #include "timer.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -120,6 +122,7 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI3_Init();
   MX_USB_DEVICE_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   usb_printf("String %d", 15/*value*/); // works just like printf, use like printf, vcp code
   /* USER CODE END 2 */
@@ -130,7 +133,7 @@ int main(void)
   // TEST 3: TESTING SIMPLE SPI MESSAGE
 
   // Variables for testing
-  uint8_t tx_data[4] = {CMD_READ_REG, 0x00, 0x00, 0x41}; // Example command + PEC
+  //uint8_t tx_data[4] = {CMD_READ_REG, 0x00, 0x00, 0x41}; // Example command + PEC
   uint8_t rx_data[6] = {0}; // Buffer for received data
 
   while (1)
